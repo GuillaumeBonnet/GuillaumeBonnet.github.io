@@ -45,12 +45,16 @@ import { MatMenuModule } from '@angular/material/menu';
 // import { MatTableModule } from '@angular/material/table';
 // import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { GithubComponent } from './github/github.component';
+import { AboutComponent } from './about/about.component';
+import { PortFolioComponent } from './port-folio/port-folio.component';
+import { LinkedInComponent } from './linked-in/linked-in.component';
 // import { MatTooltipModule } from '@angular/material/tooltip';
 // import { MatTreeModule } from '@angular/material/tree';
 // import { OverlayModule } from '@angular/cdk/overlay';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, GithubComponent, AboutComponent, PortFolioComponent, LinkedInComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

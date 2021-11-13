@@ -1,22 +1,28 @@
 <mat-toolbar>
   <div class="flex justify-between w-full">
-    <div class="flex">
-      <button class="" type="button" mat-raised-button color="primary">
-        About
-      </button>
-      <div class="mx-2"></div>
-      <button class="" type="button" mat-stroked-button color="primary">
-        Port Folio
-      </button>
-      <div class="mx-2"></div>
-      <button class="" type="button" mat-raised-button color="accent">
-        LinkedIn
-      </button>
-      <div class="mx-2"></div>
-      <button class="" type="button" mat-raised-button color="primary">
-        Github
-      </button>
-    </div>
+    <nav class="">
+      <ul class="flex">
+        <li class="mx-2" *ngFor="let navItem of navData">
+          <a [routerLink]="navItem.url" routerLinkActive="active">
+            <button
+              *ngIf="url == navItem.url; else buttonStandard"
+              class=""
+              type="button"
+              [attr.mat-button]="url != navItem.url"
+              mat-raised-button
+              color="primary"
+            >
+              {{ navItem.text }}
+            </button>
+            <ng-template #buttonStandard>
+              <button class="" type="button" mat-button color="primary">
+                {{ navItem.text }}
+              </button>
+            </ng-template>
+          </a>
+        </li>
+      </ul>
+    </nav>
     <div>FR/EN</div>
   </div>
 </mat-toolbar>
