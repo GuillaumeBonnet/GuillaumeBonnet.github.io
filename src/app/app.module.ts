@@ -37,7 +37,7 @@ import { MatMenuModule } from '@angular/material/menu';
 // import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 // import { MatRadioModule } from '@angular/material/radio';
 // import { MatSelectModule } from '@angular/material/select';
-// import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
 // import { MatSliderModule } from '@angular/material/slider';
 // import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 // import { MatSnackBarModule } from '@angular/material/snack-bar';
@@ -53,8 +53,16 @@ import { LinkedInComponent } from './linked-in/linked-in.component';
 // import { MatTreeModule } from '@angular/material/tree';
 // import { OverlayModule } from '@angular/cdk/overlay';
 
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+
 @NgModule({
-  declarations: [AppComponent, GithubComponent, AboutComponent, PortFolioComponent, LinkedInComponent],
+  declarations: [
+    AppComponent,
+    GithubComponent,
+    AboutComponent,
+    PortFolioComponent,
+    LinkedInComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -67,6 +75,8 @@ import { LinkedInComponent } from './linked-in/linked-in.component';
     MatListModule,
     MatMenuModule,
     MatToolbarModule,
+    FontAwesomeModule,
+    MatSidenavModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

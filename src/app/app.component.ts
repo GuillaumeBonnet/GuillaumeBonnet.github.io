@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router, RoutesRecognized } from '@angular/router';
-import { map, Observable } from 'rxjs';
+import { MediaMatcher } from '@angular/cdk/layout';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,22 @@ import { map, Observable } from 'rxjs';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  constructor(router: Router) {
+  isUnderTailwindSmall: MediaQueryList;
+  constructor(router: Router, media: MediaMatcher) {
+    this.isUnderTailwindSmall = media.matchMedia('(max-width: 640px)');
+    this.isUnderTailwindSmall.addEventListener('change', (ev) => {
+      //the presnce of the empty callback is enough for angular to re-render on media query changes
+    });
+
+    console.log(
+      'gboDebug:[this.isUnderTailwindSmall]',
+      this.isUnderTailwindSmall
+    );
+    console.log(
+      'gboDebug:[this.isUnderTailwindSmall.matches]',
+      this.isUnderTailwindSmall.matches
+    );
+
     router.events.subscribe((event) => {
       if (event instanceof RoutesRecognized) {
         this.url = event.urlAfterRedirects;

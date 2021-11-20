@@ -1,31 +1,63 @@
-<mat-toolbar>
-  <div class="flex justify-between w-full">
-    <nav class="">
-      <ul class="flex">
-        <li class="mx-2" *ngFor="let navItem of navData">
-          <a [routerLink]="navItem.url" routerLinkActive="active">
-            <button
-              *ngIf="url == navItem.url; else buttonStandard"
-              class=""
-              type="button"
-              [attr.mat-button]="url != navItem.url"
-              mat-raised-button
-              color="primary"
-            >
-              {{ navItem.text }}
-            </button>
-            <ng-template #buttonStandard>
-              <button class="" type="button" mat-button color="primary">
+<!-- mobile -->
+<div *ngIf="isUnderTailwindSmall.matches" class="h-full flex flex-col">
+  <mat-toolbar class="">
+    <button
+      mat-icon-button
+      class=""
+      aria-label="icon-button with menu icon"
+      (click)="drawer.toggle()"
+    >
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Guillaume Bonnet</span>
+    <span class="ml-auto">FR/EN</span>
+  </mat-toolbar>
+  <mat-drawer-container class="flex-grow" hasBackdrop>
+    <mat-drawer #drawer mode="over">
+      <mat-nav-list>
+        <a mat-list-item *ngFor="let navItem of navData" [href]="navItem.url">
+          {{ navItem.text }}
+        </a>
+      </mat-nav-list>
+    </mat-drawer>
+    <mat-drawer-content class="w-10/12 m-auto mt-4">
+      <router-outlet class="h-full"></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+</div>
+<!-- desktop menu -->
+<ng-template [ngIf]="!isUnderTailwindSmall.matches">
+  <mat-toolbar class="h-auto p-4">
+    <div class="pl-4">Guillaume Bonnet</div>
+    <div class="flex justify-between w-full">
+      <nav class="">
+        <ul class="flex flex-wrap">
+          <li class="mx-2" *ngFor="let navItem of navData">
+            <a [routerLink]="navItem.url" routerLinkActive="active">
+              <button
+                *ngIf="url == navItem.url; else buttonStandard"
+                class=""
+                type="button"
+                [attr.mat-button]="url != navItem.url"
+                mat-raised-button
+                color="primary"
+              >
                 {{ navItem.text }}
               </button>
-            </ng-template>
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <div>FR/EN</div>
+              <ng-template #buttonStandard>
+                <button class="" type="button" mat-button color="primary">
+                  {{ navItem.text }}
+                </button>
+              </ng-template>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div>FR/EN</div>
+    </div>
+  </mat-toolbar>
+
+  <div class="w-10/12 md:w-8/12 lg:w-6/12 m-auto mt-12">
+    <router-outlet></router-outlet>
   </div>
-</mat-toolbar>
-<div class="background">
-  <router-outlet></router-outlet>
-</div>
+</ng-template>
