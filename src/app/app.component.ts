@@ -15,15 +15,6 @@ export class AppComponent {
       //the presnce of the empty callback is enough for angular to re-render on media query changes
     });
 
-    console.log(
-      'gboDebug:[this.isUnderTailwindSmall]',
-      this.isUnderTailwindSmall
-    );
-    console.log(
-      'gboDebug:[this.isUnderTailwindSmall.matches]',
-      this.isUnderTailwindSmall.matches
-    );
-
     router.events.subscribe((event) => {
       if (event instanceof RoutesRecognized) {
         this.url = event.urlAfterRedirects;

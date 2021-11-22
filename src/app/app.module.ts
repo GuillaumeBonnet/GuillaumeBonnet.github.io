@@ -54,6 +54,7 @@ import { LinkedInComponent } from './linked-in/linked-in.component';
 // import { OverlayModule } from '@angular/cdk/overlay';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { TechIconComponent } from './tech-icon/tech-icon.component';
 
 @NgModule({
   declarations: [
@@ -62,6 +63,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AboutComponent,
     PortFolioComponent,
     LinkedInComponent,
+    TechIconComponent,
   ],
   imports: [
     BrowserModule,

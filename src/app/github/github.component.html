@@ -1,16 +1,59 @@
-<mat-card class="flex flex-col justify-center items-center">
-  <mat-card-title class="flex items-center">
-    Github <fa-icon class="ml-4 text-xl" [icon]="faGithub"></fa-icon>
-  </mat-card-title>
-  <mat-card-content>
-    <a href="https://github.com/GuillaumeBonnet" target="_blank"
-      >View my profile</a
-    >
-  </mat-card-content>
-  <mat-divider inset></mat-divider>
-</mat-card>
+<a href="https://github.com/GuillaumeBonnet" target="_blank">
+  <mat-card class="flex flex-col justify-center items-center">
+    <mat-card-title class="flex items-center">
+      Github <fa-icon class="ml-4 text-xl" [icon]="faGithub"></fa-icon>
+    </mat-card-title>
+    <mat-card-content>
+      <div>View my profile</div>
+    </mat-card-content>
+    <mat-divider inset></mat-divider>
+  </mat-card>
+</a>
+
 <mat-card class="mt-4 flex flex-col justify-center items-center">
   <mat-card-title class="flex items-center"> Main projects </mat-card-title>
-  <mat-card-content> </mat-card-content>
+  <mat-card-content class="w-full flex flex-wrap">
+    <div *ngFor="let project of projects" class="w-12/12 sm:w-6/12 pt-2 sm:p-2">
+      <div
+        class="
+          bg-gray-600
+          rounded
+          p-2
+          border border-black
+          group
+          text-center
+          h-full
+          flex flex-col
+        "
+      >
+        <a
+          class="group-hover:font-medium text-lg"
+          [href]="project.githubUrl"
+          target="_blank"
+        >
+          {{ project.title }}
+        </a>
+        <div class="flex justify-center">
+          <app-tech-icon
+            *ngFor="let iconName of project.techIcons"
+            [name]="iconName"
+            class="m-1"
+          ></app-tech-icon>
+        </div>
+        <div class="mt-2 italic flex-grow">
+          {{ project.description }}
+        </div>
+        <button
+          class="mt-2 bg-gray-800 p-2 cursor-pointer"
+          (click)="projectClicked(project.title)"
+        >
+          click to see a demo, the functionnal, and technical break down
+          <div>
+            <mat-icon>read_more</mat-icon>
+          </div>
+        </button>
+      </div>
+    </div>
+  </mat-card-content>
   <mat-divider inset></mat-divider>
 </mat-card>
