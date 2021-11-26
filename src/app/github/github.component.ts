@@ -27,7 +27,7 @@ export class GithubComponent implements OnInit {
     {
       title: 'MetaMovie',
       description:
-        'A browser plugin for Netflix that gives you facts on the form of text bubbles',
+        'A browser plugin for Chrome that gives you facts on the form of text bubbles in Netflix videos',
       techIcons: ['vue', 'typescript', 'nodejs'],
       githubUrl: 'https://github.com/GuillaumeBonnet/MetaMovie-Plugin',
     },

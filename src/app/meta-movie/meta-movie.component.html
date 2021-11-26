@@ -1,0 +1,62 @@
+<mat-card class="flex flex-col justify-center items-center">
+  <mat-card-title class="flex items-center"
+    >Meta Movie
+    <img
+      class="ml-4 w-10 h-10"
+      src="/assets/MetaMovie-128x128.png"
+      alt="Meta Movie logo"
+    />
+  </mat-card-title>
+  <mat-card-content>
+    <div class="italic text-center">
+      A browser <em class="font-bold">plugin for Chrome</em> that gives you
+      <em class="font-bold">facts</em> on the form of text bubbles in
+      <em class="font-bold">Netflix</em>
+      videos
+    </div>
+    <img
+      class="mt-4 mx-auto w-10/12 rounded"
+      src="assets/meta-movie-showcase.gif"
+      alt="Meta Movie logo"
+    />
+  </mat-card-content>
+  <mat-divider inset></mat-divider>
+  <mat-card-title class="mt-4 flex items-center">Features</mat-card-title>
+  <div class="">
+    <p class="">
+      On a movie/episode page you can select one of the available decks of fact
+      cards.
+    </p>
+    <p class="">
+      To create a deck you need to log in. The passwords are hashed in database
+      and the communications are done over Secure Https.
+    </p>
+  </div>
+  <mat-divider inset></mat-divider>
+  <mat-card-title class="mt-4 flex items-center">Technology</mat-card-title>
+  <div class="w-full">
+    <p class="underline">The plugin's front-end:</p>
+    <ul class="pl-8">
+      <li class="" *ngFor="let line of frontEndLines">
+        <app-tech-icon
+          [name]="line.iconName"
+          class="-ml-5 inline-block align-bottom"
+        ></app-tech-icon>
+        {{ line.text }}
+        <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>
+      </li>
+    </ul>
+    <p class="underline">The server back-end:</p>
+    <ul class="pl-8">
+      <li class="" *ngFor="let line of backEndLines">
+        <app-tech-icon
+          [name]="line.iconName"
+          class="-ml-5 inline-block align-bottom"
+        ></app-tech-icon>
+        {{ line.text }}
+        <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>
+      </li>
+    </ul>
+  </div>
+  <mat-divider inset class="mt-2"></mat-divider>
+</mat-card>

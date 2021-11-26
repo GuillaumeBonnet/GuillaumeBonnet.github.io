@@ -43,15 +43,14 @@
         <div class="mt-2 italic flex-grow">
           {{ project.description }}
         </div>
-        <button
-          class="mt-2 bg-gray-800 p-2 cursor-pointer"
-          (click)="projectClicked(project.title)"
-        >
-          click to see a demo, the functionnal, and technical break down
-          <div>
-            <mat-icon>read_more</mat-icon>
-          </div>
-        </button>
+        <a routerLink="meta-movie" routerLinkActive="active">
+          <button class="mt-2 bg-gray-800 p-2 cursor-pointer">
+            click to see a demo, the functionnal, and technical break down
+            <div>
+              <mat-icon>read_more</mat-icon>
+            </div>
+          </button>
+        </a>
       </div>
     </div>
   </mat-card-content>

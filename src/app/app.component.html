@@ -20,7 +20,7 @@
         </a>
       </mat-nav-list>
     </mat-drawer>
-    <mat-drawer-content class="w-11/12 m-auto mt-4">
+    <mat-drawer-content class="w-11/12 m-auto py-4">
       <router-outlet class="h-full"></router-outlet>
     </mat-drawer-content>
   </mat-drawer-container>
@@ -56,8 +56,9 @@
       <div>FR/EN</div>
     </div>
   </mat-toolbar>
-
-  <div class="w-10/12 md:w-8/12 lg:w-6/12 m-auto mt-12">
-    <router-outlet></router-outlet>
+  <div class="w-full bg-gray-300">
+    <div class="w-10/12 md:w-8/12 lg:w-6/12 m-auto py-12">
+      <router-outlet></router-outlet>
+    </div>
   </div>
 </ng-template>
