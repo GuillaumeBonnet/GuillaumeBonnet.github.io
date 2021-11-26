@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AvailableTechIcons } from '../tech-icon/tech-icon.component';
+import { AvailableTechIcons } from '../../tech-icon/tech-icon.component';
 type Line = {
   iconName: AvailableTechIcons;
   text: string;

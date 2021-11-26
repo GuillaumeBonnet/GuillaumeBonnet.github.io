@@ -55,7 +55,7 @@ import { LinkedInComponent } from './linked-in/linked-in.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TechIconComponent } from './tech-icon/tech-icon.component';
-import { MetaMovieComponent } from './meta-movie/meta-movie.component';
+import { MetaMovieComponent } from './github/meta-movie/meta-movie.component';
 
 @NgModule({
   declarations: [
