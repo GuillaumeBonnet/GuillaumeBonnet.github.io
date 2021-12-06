@@ -27,6 +27,6 @@ export class AppComponent {
   navData = [
     { url: '/about', text: 'About' },
     { url: '/linked-in', text: 'LinkedIn' },
-    { url: '/github', text: 'Github / Port Folio' },
+    { url: '/github/home', text: 'Github / Port Folio' },
   ];
 }

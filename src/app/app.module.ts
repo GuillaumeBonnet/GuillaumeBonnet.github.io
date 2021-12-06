@@ -55,7 +55,9 @@ import { LinkedInComponent } from './linked-in/linked-in.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TechIconComponent } from './tech-icon/tech-icon.component';
-import { MetaMovieComponent } from './github/meta-movie/meta-movie.component';
+import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movie.component';
+import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
+import { GithubProjectComponent } from './github/github-project/github-project.component';
 
 @NgModule({
   declarations: [
@@ -66,6 +68,8 @@ import { MetaMovieComponent } from './github/meta-movie/meta-movie.component';
     LinkedInComponent,
     TechIconComponent,
     MetaMovieComponent,
+    FreezerPracticeComponent,
+    GithubProjectComponent,
   ],
   imports: [
     BrowserModule,

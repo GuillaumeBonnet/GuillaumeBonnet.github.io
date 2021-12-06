@@ -43,7 +43,7 @@
         <div class="mt-2 italic flex-grow">
           {{ project.description }}
         </div>
-        <a routerLink="meta-movie" routerLinkActive="active">
+        <a [routerLink]="project.urlFragment" routerLinkActive="active">
           <button class="mt-2 bg-gray-800 p-2 cursor-pointer">
             click to see a demo, the functionnal, and technical break down
             <div>
