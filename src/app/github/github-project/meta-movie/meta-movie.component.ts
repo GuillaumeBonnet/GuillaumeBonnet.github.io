@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { projects } from 'src/projectData';
 import { AvailableTechIcons } from '../../../tech-icon/tech-icon.component';
 type Line = {
   iconName: AvailableTechIcons;
@@ -12,6 +13,7 @@ type Line = {
 })
 export class MetaMovieComponent implements OnInit {
   constructor() {}
+  projects = projects;
 
   ngOnInit(): void {}
   frontEndLines: Line[] = [

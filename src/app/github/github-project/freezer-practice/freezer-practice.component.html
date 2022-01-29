@@ -5,12 +5,29 @@
       A <em class="font-bold">website</em> for mobile only that displays freezer
       and aliments
     </p>
+
+    <app-github-project-link [url]="projects['freezer-practice'].githubUrl">
+    </app-github-project-link>
+
+    <!-- TODO explanation cold start heroku -->
+    <!-- <iframe
+      src="http://localhost:8080/freezers"
+      frameborder="0"
+      class="mx-auto"
+      style="height: 80vh"
+    ></iframe> -->
     <iframe
-      src="https://freezer-practice.herokuapp.com/freezers"
+      src="http://localhost:4201/freezers"
       frameborder="0"
       class="mx-auto"
       style="height: 80vh"
     ></iframe>
+    <!-- <iframe
+      src="https://freezer-practice.herokuapp.com/freezers"
+      frameborder="0"
+      class="mx-auto"
+      style="height: 80vh"
+    ></iframe> -->
   </mat-card-content>
   <mat-divider inset></mat-divider>
 </mat-card>

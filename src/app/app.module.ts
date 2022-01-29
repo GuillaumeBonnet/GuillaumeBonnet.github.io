@@ -58,6 +58,7 @@ import { TechIconComponent } from './tech-icon/tech-icon.component';
 import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movie.component';
 import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
+import { GithubProjectLinkComponent } from './github/github-project/github-project-link/github-project-link.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,7 @@ import { GithubProjectComponent } from './github/github-project/github-project.c
     MetaMovieComponent,
     FreezerPracticeComponent,
     GithubProjectComponent,
+    GithubProjectLinkComponent,
   ],
   imports: [
     BrowserModule,

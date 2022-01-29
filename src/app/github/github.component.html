@@ -28,8 +28,8 @@
       >
         <a
           class="group-hover:font-medium text-lg"
-          [href]="project.githubUrl"
-          target="_blank"
+          [routerLink]="project.urlFragment"
+          routerLinkActive="active"
         >
           {{ project.title }}
         </a>
