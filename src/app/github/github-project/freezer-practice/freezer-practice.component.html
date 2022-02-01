@@ -9,25 +9,54 @@
     <app-github-project-link [url]="projects['freezer-practice'].githubUrl">
     </app-github-project-link>
 
-    <!-- TODO explanation cold start heroku -->
+    <p class="">
+      The real site has a
+      <strong>cold start</strong> because it is hosted on a free plan on heroku.
+      It sleeps when there is no web traffic in a 30-minute period.
+    </p>
     <!-- <iframe
       src="http://localhost:8080/freezers"
       frameborder="0"
       class="mx-auto"
       style="height: 80vh"
     ></iframe> -->
-    <iframe
-      src="http://localhost:4201/freezers"
-      frameborder="0"
-      class="mx-auto"
-      style="height: 80vh"
-    ></iframe>
-    <!-- <iframe
-      src="https://freezer-practice.herokuapp.com/freezers"
-      frameborder="0"
-      class="mx-auto"
-      style="height: 80vh"
-    ></iframe> -->
+    <div class="flex flex-wrap justify-around" style="height: max-content">
+      <div class="relative w-10/12 mb-12 sm:mb-0 sm:w-5/12">
+        <div
+          class="
+            top-0
+            text-center
+            w-full
+            absolute
+            bg-white bg-opacity-50
+            text-black text-lg
+          "
+        >
+          Demonstration giff
+        </div>
+        <img src="/assets/freezer-practice.gif" class="w-full" />
+      </div>
+      <div class="relative w-10/12 sm:w-5/12 flex h-70v sm:h-auto">
+        <div
+          class="
+            top-0
+            text-center
+            w-full
+            absolute
+            bg-white bg-opacity-50
+            text-black text-lg
+          "
+        >
+          Real site in production
+        </div>
+        <iframe
+          src="http://localhost:4200/freezers"
+          frameborder="0"
+          class="w-full h-full flex"
+          style=""
+        ></iframe>
+      </div>
+    </div>
   </mat-card-content>
   <mat-divider inset></mat-divider>
 </mat-card>
