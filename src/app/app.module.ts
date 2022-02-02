@@ -59,6 +59,7 @@ import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movi
 import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
 import { GithubProjectLinkComponent } from './github/github-project/github-project-link/github-project-link.component';
+import { FullscreenContainerComponent } from './utility/fullscreen-container/fullscreen-container.component';
 
 @NgModule({
   declarations: [
@@ -72,6 +73,7 @@ import { GithubProjectLinkComponent } from './github/github-project/github-proje
     FreezerPracticeComponent,
     GithubProjectComponent,
     GithubProjectLinkComponent,
+    FullscreenContainerComponent,
   ],
   imports: [
     BrowserModule,

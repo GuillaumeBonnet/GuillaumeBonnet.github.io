@@ -17,12 +17,15 @@
 
     <app-github-project-link [url]="projects['meta-movie'].githubUrl">
     </app-github-project-link>
-
-    <img
-      class="mt-4 mx-auto w-10/12 rounded"
-      src="assets/meta-movie-showcase.gif"
-      alt="Meta Movie logo"
-    />
+    <div class="mt-4 mx-auto w-10/12 rounded">
+      <app-fullscreen-container>
+        <img
+          class=""
+          src="assets/meta-movie-showcase.gif"
+          alt="Meta Movie logo"
+        />
+      </app-fullscreen-container>
+    </div>
   </mat-card-content>
   <mat-divider inset></mat-divider>
   <mat-card-title class="mt-4 flex items-center">Features</mat-card-title>
