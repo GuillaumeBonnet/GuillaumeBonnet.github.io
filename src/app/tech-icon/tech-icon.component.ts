@@ -80,6 +80,12 @@ const iconMap = {
     title: 'spring',
     url: 'https://spring.io/',
   },
+  sass: {
+    longPath: '/src/assets/sass.icon.png',
+    alt: 'sass icon',
+    title: 'sass',
+    url: 'https://sass-lang.com/',
+  },
   vscode: {
     longPath: '/src/assets/vscode.icon.png',
     alt: 'VS Code icon',
