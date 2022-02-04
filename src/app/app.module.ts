@@ -61,6 +61,7 @@ import { GithubProjectComponent } from './github/github-project/github-project.c
 import { GithubProjectLinkComponent } from './github/github-project/github-project-link/github-project-link.component';
 import { FullscreenContainerComponent } from './utility/fullscreen-container/fullscreen-container.component';
 import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
+import { WorkspacePreferenceComponent } from './github/github-project/workspace-preference/workspace-preference.component';
 
 @NgModule({
   declarations: [
@@ -76,6 +77,7 @@ import { PersonalSiteComponent } from './github/github-project/personal-site/per
     GithubProjectLinkComponent,
     FullscreenContainerComponent,
     PersonalSiteComponent,
+    WorkspacePreferenceComponent,
   ],
   imports: [
     BrowserModule,

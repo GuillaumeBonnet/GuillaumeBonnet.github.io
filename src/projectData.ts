@@ -32,10 +32,10 @@ const projects: { [key: string]: Project } = {
     urlFragment: '/github/personal-site',
   },
   'workspace-preference': {
-    title: 'WorkSpace preference',
+    title: 'WorkSpace preferences',
     description:
       'Scripts, tools and configurations to set-up my developer environment quickly',
-    techIcons: ['vscode'],
+    techIcons: ['vscode', 'git', 'powershell'],
     githubUrl: 'https://github.com/GuillaumeBonnet/WorkSpace-Preferences',
     urlFragment: '/github/workspace-preference',
   },

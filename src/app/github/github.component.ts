@@ -13,8 +13,4 @@ export class GithubComponent implements OnInit {
 
   faGithub = faGithub;
   projects = Object.values(projects);
-
-  projectClicked(projectTitle: string) {
-    console.log('gboDebug:[projectTitle]', projectTitle);
-  }
 }

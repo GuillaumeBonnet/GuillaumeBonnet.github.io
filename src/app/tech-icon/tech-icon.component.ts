@@ -92,6 +92,18 @@ const iconMap = {
     title: 'VS Code',
     url: 'https://code.visualstudio.com/',
   },
+  git: {
+    longPath: '/src/assets/git.icon.png',
+    alt: 'Git icon',
+    title: 'Git',
+    url: 'https://git-scm.com/',
+  },
+  powershell: {
+    longPath: '/src/assets/powershell.icon.png',
+    alt: 'PowerShell icon',
+    title: 'PowerShell',
+    url: 'https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2',
+  },
 };
 
 export type AvailableTechIcons = keyof typeof iconMap;

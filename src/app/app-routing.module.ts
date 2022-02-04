@@ -8,6 +8,7 @@ import { PortFolioComponent } from './port-folio/port-folio.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
 import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
 import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
+import { WorkspacePreferenceComponent } from './github/github-project/workspace-preference/workspace-preference.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,7 @@ const routes: Routes = [
       { path: 'meta-movie', component: MetaMovieComponent },
       { path: 'freezer-practice', component: FreezerPracticeComponent },
       { path: 'personal-site', component: PersonalSiteComponent },
+      { path: 'workspace-preference', component: WorkspacePreferenceComponent },
     ],
   },
   { path: 'github/home', component: GithubComponent },
