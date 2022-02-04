@@ -20,14 +20,14 @@ const projects: { [key: string]: Project } = {
   'freezer-practice': {
     title: 'Freezer practice app',
     description: 'A website for mobile that displays freezer and aliments',
-    techIcons: ['angular', 'java', 'spring'],
+    techIcons: ['angular', 'typescript', 'java', 'spring'],
     githubUrl: 'https://github.com/GuillaumeBonnet/freezerTracker',
     urlFragment: '/github/freezer-practice',
   },
   'personal-site': {
-    title: 'This personnal site',
+    title: 'This personal site',
     description: 'A responsive site that showcases various hobby projects',
-    techIcons: ['angular'],
+    techIcons: ['angular', 'typescript', 'tailwind'],
     githubUrl: 'https://github.com/GuillaumeBonnet', //TODO
     urlFragment: '/github/personal-site',
   },

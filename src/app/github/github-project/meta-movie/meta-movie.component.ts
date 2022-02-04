@@ -35,7 +35,7 @@ export class MetaMovieComponent implements OnInit {
     {
       iconName: 'tailwind',
       text: 'tailwindcss',
-      secondaryText: '(style framework)',
+      secondaryText: '(css framework)',
     },
   ];
   backEndLines: Line[] = [

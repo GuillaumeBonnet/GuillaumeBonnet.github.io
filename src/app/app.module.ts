@@ -60,6 +60,7 @@ import { FreezerPracticeComponent } from './github/github-project/freezer-practi
 import { GithubProjectComponent } from './github/github-project/github-project.component';
 import { GithubProjectLinkComponent } from './github/github-project/github-project-link/github-project-link.component';
 import { FullscreenContainerComponent } from './utility/fullscreen-container/fullscreen-container.component';
+import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
 
 @NgModule({
   declarations: [
@@ -74,6 +75,7 @@ import { FullscreenContainerComponent } from './utility/fullscreen-container/ful
     GithubProjectComponent,
     GithubProjectLinkComponent,
     FullscreenContainerComponent,
+    PersonalSiteComponent,
   ],
   imports: [
     BrowserModule,

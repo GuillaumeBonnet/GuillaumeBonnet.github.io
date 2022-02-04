@@ -7,6 +7,7 @@ import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movi
 import { PortFolioComponent } from './port-folio/port-folio.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
 import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
+import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
 
 const routes: Routes = [
   {
@@ -15,6 +16,7 @@ const routes: Routes = [
     children: [
       { path: 'meta-movie', component: MetaMovieComponent },
       { path: 'freezer-practice', component: FreezerPracticeComponent },
+      { path: 'personal-site', component: PersonalSiteComponent },
     ],
   },
   { path: 'github/home', component: GithubComponent },

@@ -1,0 +1,48 @@
+<mat-card
+  class="flex flex-col justify-center items-center md:text-base md:p-12"
+>
+  <mat-card-title class="flex items-center">this-site</mat-card-title>
+  <mat-card-content>
+    <p class="italic text-center">
+      A static <em class="font-bold">Responsive website</em> (mobile and deskop)
+      hosted on github.
+    </p>
+
+    <app-github-project-link [url]="projects['personal-site'].githubUrl">
+    </app-github-project-link>
+
+    <p class="">
+      For Desktop users the mobile version of the site will be shown in a
+      rectangle bellow.
+    </p>
+
+    <div class="flex justify-center">
+      <iframe
+        src="http://localhost:4201"
+        frameborder="0"
+        class="hidden sm:block h-70v border-2 border-black"
+        style=""
+      ></iframe>
+    </div>
+
+    <mat-divider inset class="mt-4"></mat-divider>
+
+    <mat-card-title class="mt-4 flex items-center">Technology</mat-card-title>
+    <div class="w-full">
+      <p class="underline">The plugin's front-end:</p>
+      <ul class="pl-8">
+        <li class="" *ngFor="let line of frontEndLines">
+          <app-tech-icon
+            [name]="line.iconName"
+            class="-ml-5 inline-block align-bottom relative bottom-1"
+          ></app-tech-icon>
+          {{ line.text }}
+          <span class="italic text-gray-200 ml-2">{{
+            line.secondaryText
+          }}</span>
+        </li>
+      </ul>
+    </div>
+    <mat-divider inset class="mt-2"></mat-divider>
+  </mat-card-content>
+</mat-card>
