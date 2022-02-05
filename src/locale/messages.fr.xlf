@@ -18,7 +18,7 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6576134300995913009" datatype="html">
+      <trans-unit id="7263701545227622178" datatype="html">
         <source>button with menu icon</source>
         <target>bouton avec un icône de menu</target>
         <context-group purpose="location">
@@ -354,7 +354,7 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1185873992020303524" datatype="html">
+      <trans-unit id="350438847001119936" datatype="html">
         <source> A static <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Responsive website<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> (mobile and desktop) hosted on github. </source>
         <target> Un <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>site web réactif<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> (mobiles et ordinateurs) et static hébergé sur github. </target>
         <context-group purpose="location">

@@ -16,8 +16,8 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="6576134300995913009" datatype="html">
-        <source>icon-button with menu icon</source>
+      <trans-unit id="7263701545227622178" datatype="html">
+        <source>button with menu icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">7</context>
@@ -254,18 +254,6 @@
           <context context-type="linenumber">2</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="8401807819515267447" datatype="html">
-        <source> Meta Movie <x id="TAG_IMG" ctype="image" equiv-text="&lt;img
-      class=&quot;ml-4 w-10 h-10&quot;
-      src=&quot;/assets/MetaMovie-128x128.png&quot;
-      alt=&quot;Meta Movie logo&quot;
-      i18n-alt
-    /&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/github-project/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">2,9</context>
-        </context-group>
-      </trans-unit>
       <trans-unit id="5962428253264295961" datatype="html">
         <source>Meta Movie logo</source>
         <context-group purpose="location">
@@ -330,7 +318,7 @@
           <context context-type="linenumber">4</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="1185873992020303524" datatype="html">
+      <trans-unit id="350438847001119936" datatype="html">
         <source> A static <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Responsive website<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> (mobile and desktop) hosted on github. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github-project/personal-site/personal-site.component.html</context>
