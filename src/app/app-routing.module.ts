@@ -4,7 +4,6 @@ import { AboutComponent } from './about/about.component';
 import { GithubComponent } from './github/github.component';
 import { LinkedInComponent } from './linked-in/linked-in.component';
 import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movie.component';
-import { PortFolioComponent } from './port-folio/port-folio.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
 import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
 import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
@@ -23,7 +22,6 @@ const routes: Routes = [
   },
   { path: 'github/home', component: GithubComponent },
   { path: 'home', component: AboutComponent },
-  { path: 'port-folio', component: PortFolioComponent },
   { path: 'linked-in', component: LinkedInComponent },
   { path: '**', component: AboutComponent },
 ];

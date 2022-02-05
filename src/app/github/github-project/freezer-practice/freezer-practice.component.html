@@ -1,9 +1,11 @@
 <mat-card
   class="flex flex-col justify-center items-center md:text-base md:p-12"
 >
-  <mat-card-title class="flex items-center">freezer-practice</mat-card-title>
+  <mat-card-title class="flex items-center" i18n
+    >freezer-practice</mat-card-title
+  >
   <mat-card-content>
-    <p class="italic text-center">
+    <p class="italic text-center" i18n>
       A <em class="font-bold">website</em> for mobile only that displays freezer
       and aliments
     </p>
@@ -11,7 +13,7 @@
     <app-github-project-link [url]="projects['freezer-practice'].githubUrl">
     </app-github-project-link>
 
-    <p class="">
+    <p class="" i18n>
       The real site has a
       <strong>cold start</strong> because it is hosted on a free plan on heroku.
       It sleeps when there is no web traffic in a 30-minute period.
@@ -33,6 +35,7 @@
             bg-white bg-opacity-50
             text-black text-lg
           "
+          i18n
         >
           Demonstration giff
         </div>
@@ -48,6 +51,7 @@
             bg-white bg-opacity-50
             text-black text-lg
           "
+          i18n
         >
           Real site in production
         </div>
@@ -62,27 +66,31 @@
   </mat-card-content>
 
   <mat-divider inset></mat-divider>
-  <mat-card-title class="mt-4 flex items-center">Features</mat-card-title>
+  <mat-card-title class="mt-4 flex items-center" i18n>Features</mat-card-title>
   <ul class="w-full pl-4 md:pl-0">
-    <li class="list-disc">
+    <li class="list-disc" i18n>
       <strong>Secure authentication</strong> where passwords are saved hashed.
     </li>
-    <li class="list-disc">
+    <li class="list-disc" i18n>
       Email verification and password reset through
       <strong>email messages</strong>
     </li>
-    <li class="list-disc">
+    <li class="list-disc" i18n>
       Collection of <strong>freezers</strong> which each contain their own
       collections of <strong>aliments</strong>.
     </li>
-    <li class="list-disc">Create, remove, edit any elements.</li>
-    <li class="list-disc">Integration of custom svg <strong>icons</strong>.</li>
+    <li class="list-disc" i18n>Create, remove, edit any elements.</li>
+    <li class="list-disc" i18n>
+      Integration of custom svg <strong>icons</strong>.
+    </li>
   </ul>
 
   <mat-divider inset></mat-divider>
-  <mat-card-title class="mt-4 flex items-center">Technology</mat-card-title>
+  <mat-card-title class="mt-4 flex items-center" i18n
+    >Technology</mat-card-title
+  >
   <div class="w-full">
-    <p class="underline">The plugin's front-end:</p>
+    <p class="underline" i18n>The plugin's front-end:</p>
     <ul class="pl-8">
       <li class="" *ngFor="let line of frontEndLines">
         <app-tech-icon
@@ -93,7 +101,7 @@
         <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>
       </li>
     </ul>
-    <p class="mt-4 underline">The server back-end:</p>
+    <p class="mt-4 underline" i18n>The server back-end:</p>
     <ul class="pl-8">
       <li class="" *ngFor="let line of backEndLines">
         <app-tech-icon

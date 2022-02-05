@@ -25,8 +25,8 @@ export class AppComponent {
   url = '';
 
   navData = [
-    { url: '/about', text: 'About' },
+    { url: '/about', text: $localize`About` },
     { url: '/linked-in', text: 'LinkedIn' },
-    { url: '/github/home', text: 'Github / Port Folio' },
+    { url: '/github/home', text: $localize`Github / Port Folio` },
   ];
 }

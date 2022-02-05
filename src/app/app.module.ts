@@ -47,7 +47,6 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { GithubComponent } from './github/github.component';
 import { AboutComponent } from './about/about.component';
-import { PortFolioComponent } from './port-folio/port-folio.component';
 import { LinkedInComponent } from './linked-in/linked-in.component';
 // import { MatTooltipModule } from '@angular/material/tooltip';
 // import { MatTreeModule } from '@angular/material/tree';
@@ -68,7 +67,6 @@ import { WorkspacePreferenceComponent } from './github/github-project/workspace-
     AppComponent,
     GithubComponent,
     AboutComponent,
-    PortFolioComponent,
     LinkedInComponent,
     TechIconComponent,
     MetaMovieComponent,

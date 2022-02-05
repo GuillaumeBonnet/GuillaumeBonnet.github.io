@@ -25,49 +25,49 @@ export class MetaMovieComponent implements OnInit {
     {
       iconName: 'typescript',
       text: 'Typescript',
-      secondaryText: '(typing language)',
+      secondaryText: $localize`(typing language)`,
     },
     {
       iconName: 'materialdesign',
       text: 'Material Design web components with a custom theme',
-      secondaryText: '(components)',
+      secondaryText: $localize`(components)`,
     },
     {
       iconName: 'tailwind',
       text: 'tailwindcss',
-      secondaryText: '(css framework)',
+      secondaryText: $localize`(css framework)`,
     },
   ];
   backEndLines: Line[] = [
     {
       iconName: 'nodejs',
       text: 'nodejs',
-      secondaryText: '(language)',
+      secondaryText: $localize`(language)`,
     },
     {
       iconName: 'typescript',
       text: 'Typescript',
-      secondaryText: '(typing language)',
+      secondaryText: $localize`(typing language)`,
     },
     {
       iconName: 'expressjs',
       text: 'express',
-      secondaryText: '(web framework)',
+      secondaryText: $localize`(web framework)`,
     },
     {
       iconName: 'prisma',
       text: 'Prisma',
-      secondaryText: '(database ORM)',
+      secondaryText: $localize`(database ORM)`,
     },
     {
       iconName: 'postgresql',
       text: 'PostgreSQL',
-      secondaryText: '(database)',
+      secondaryText: $localize`(database)`,
     },
     {
       iconName: 'heroku',
       text: 'HEROKU',
-      secondaryText: '(Hosting server platform)',
+      secondaryText: $localize`(Hosting server platform)`,
     },
   ];
 }

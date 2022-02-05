@@ -1,9 +1,9 @@
 <mat-card
   class="flex flex-col justify-center items-center md:text-base md:p-12"
 >
-  <mat-card-title class="flex items-center">{{
-    projectData.title
-  }}</mat-card-title>
+  <mat-card-title class="flex items-center">
+    {{ projectData.title }}
+  </mat-card-title>
   <mat-card-content>
     <p class="mt-2 italic text-center">
       {{ projectData.description }}
@@ -17,7 +17,7 @@
       </li>
     </ul>
 
-    <p class="mt-2">
+    <p class="mt-2" i18n>
       Global configuration files such as git's<em>.gitconfig</em>, VSCode's
       <em>settings.json</em>, vscode <em>snippets</em> json are synchronized
       through the use of symbolic links and a git repository.

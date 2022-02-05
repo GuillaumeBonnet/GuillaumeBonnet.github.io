@@ -1,9 +1,9 @@
 <mat-card
   class="flex flex-col justify-center items-center md:text-base md:p-12"
 >
-  <mat-card-title class="flex items-center">this-site</mat-card-title>
+  <mat-card-title class="flex items-center" i18n>this-site</mat-card-title>
   <mat-card-content>
-    <p class="italic text-center">
+    <p class="italic text-center" i18n>
       A static <em class="font-bold">Responsive website</em> (mobile and deskop)
       hosted on github.
     </p>
@@ -11,7 +11,7 @@
     <app-github-project-link [url]="projects['personal-site'].githubUrl">
     </app-github-project-link>
 
-    <p class="">
+    <p class="" i18n>
       For Desktop users the mobile version of the site will be shown in a
       rectangle bellow.
     </p>
@@ -27,9 +27,11 @@
 
     <mat-divider inset class="mt-4"></mat-divider>
 
-    <mat-card-title class="mt-4 flex items-center">Technology</mat-card-title>
+    <mat-card-title class="mt-4 flex items-center" i18n
+      >Technology</mat-card-title
+    >
     <div class="w-full">
-      <p class="underline">The plugin's front-end:</p>
+      <p class="underline" i18n>The plugin's front-end:</p>
       <ul class="pl-8">
         <li class="" *ngFor="let line of frontEndLines">
           <app-tech-icon
@@ -37,9 +39,9 @@
             class="-ml-5 inline-block align-bottom relative bottom-1"
           ></app-tech-icon>
           {{ line.text }}
-          <span class="italic text-gray-200 ml-2">{{
-            line.secondaryText
-          }}</span>
+          <span class="italic text-gray-200 ml-2">
+            {{ line.secondaryText }}
+          </span>
         </li>
       </ul>
     </div>

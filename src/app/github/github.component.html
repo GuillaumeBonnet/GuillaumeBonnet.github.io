@@ -4,14 +4,16 @@
       Github <fa-icon class="ml-4 text-xl" [icon]="faGithub"></fa-icon>
     </mat-card-title>
     <mat-card-content>
-      <div>View my profile</div>
+      <div i18n>View my profile</div>
     </mat-card-content>
     <mat-divider inset></mat-divider>
   </mat-card>
 </a>
 
 <mat-card class="mt-4 flex flex-col justify-center items-center">
-  <mat-card-title class="flex items-center"> Main projects </mat-card-title>
+  <mat-card-title class="flex items-center" i18n>
+    Main projects
+  </mat-card-title>
   <mat-card-content class="w-full flex flex-wrap">
     <div *ngFor="let project of projects" class="w-12/12 sm:w-6/12 pt-2 sm:p-2">
       <div
@@ -44,7 +46,7 @@
           {{ project.description }}
         </div>
         <a [routerLink]="project.urlFragment" routerLinkActive="active">
-          <button class="mt-2 bg-gray-800 p-2 cursor-pointer">
+          <button class="mt-2 bg-gray-800 p-2 cursor-pointer" i18n>
             click to see a demo, the functionnal, and technical break down
             <div>
               <mat-icon>read_more</mat-icon>
