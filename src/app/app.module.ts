@@ -61,6 +61,7 @@ import { FreezerPracticeComponent } from './github/freezer-practice/freezer-prac
 import { GithubProjectLinkComponent } from './github/github-project-link/github-project-link.component';
 import { PersonalSiteComponent } from './github/personal-site/personal-site.component';
 import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
+import { LanguagePickerComponent } from './language-picker/language-picker.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -75,6 +76,7 @@ import { WorkspacePreferenceComponent } from './github/workspace-preference/work
     FullscreenContainerComponent,
     PersonalSiteComponent,
     WorkspacePreferenceComponent,
+    LanguagePickerComponent,
   ],
   imports: [
     BrowserModule,

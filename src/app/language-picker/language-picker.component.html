@@ -1,0 +1,23 @@
+<div class="text-base">
+  <a [href]="'/fr-FR' + url">
+    <span
+      [ngClass]="{
+        'font-extrabold text-xl': isFr,
+        'cursor-pointer': !isFr
+      }"
+    >
+      FR
+    </span>
+  </a>
+  /
+  <a [href]="'/en-US' + url">
+    <span
+      [ngClass]="{
+        'font-extrabold text-xl': !isFr,
+        'cursor-pointer': isFr
+      }"
+    >
+      EN
+    </span>
+  </a>
+</div>

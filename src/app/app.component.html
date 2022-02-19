@@ -11,7 +11,11 @@
       <mat-icon>menu</mat-icon>
     </button>
     <span>Guillaume Bonnet</span>
-    <span class="ml-auto">FR/EN</span>
+    <app-language-picker
+      class="ml-auto"
+      [isFr]="isFr"
+      [url]="url"
+    ></app-language-picker>
   </mat-toolbar>
   <mat-drawer-container class="flex-grow" hasBackdrop>
     <mat-drawer #drawer mode="over">
@@ -54,7 +58,7 @@
           </li>
         </ul>
       </nav>
-      <div>FR/EN</div>
+      <app-language-picker [isFr]="isFr" [url]="url"></app-language-picker>
     </div>
   </mat-toolbar>
   <div class="w-full bg-gray-300 flex-grow overflow-y-auto">
