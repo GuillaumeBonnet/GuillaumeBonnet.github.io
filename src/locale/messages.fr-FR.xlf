@@ -180,7 +180,7 @@
       </trans-unit>
       <trans-unit id="typing-language" datatype="html">
         <source>(typing language)</source>
-        <target>(language de typage)</target>
+        <target>(langage de typage)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github-project/freezer-practice/freezer-practice.component.ts</context>
           <context context-type="linenumber">31</context>
@@ -296,7 +296,7 @@
       </trans-unit>
       <trans-unit id="meta-movie:description" datatype="html">
         <source> A browser <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>plugin for Chrome<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> that gives you <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>facts<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> on the form of text bubbles in <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Netflix<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> videos </source>
-        <target> Une  <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>extension<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> de navigateur pour <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Chrome<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> qui affiche des <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>anecdotes et faits<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> avec des bulles de texte dans des vidéos <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Netflix<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
+        <target> Une  <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>extension de navigateur pour Chrome<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> qui affiche des <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>anecdotes et faits<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> avec des bulles de texte dans des vidéos <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Netflix<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github-project/meta-movie/meta-movie.component.html</context>
           <context context-type="linenumber">12,17</context>
@@ -304,7 +304,7 @@
       </trans-unit>
       <trans-unit id="meta-movie:select-deck" datatype="html">
         <source> On a movie/episode page you can select one of the available decks of fact cards. </source>
-        <target> Sure une page de film/série vous pouvez sélectionner l'un des packets de cartes/faits disponibles. </target>
+        <target> Sur une page de film/série vous pouvez sélectionner l'un des paquets de cartes/faits disponibles. </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github-project/meta-movie/meta-movie.component.html</context>
           <context context-type="linenumber">37,40</context>
@@ -312,7 +312,7 @@
       </trans-unit>
       <trans-unit id="meta-movie:create-deck" datatype="html">
         <source> To create a deck you need to log in. The passwords are hashed in database and the communications are done over Secure Https. </source>
-        <target> Pour créer un deck vous devez vous connecter. Les mots de passes sont hachés en base de donnée et les communications sont encryptées sous Https.</target>
+        <target> Pour créer un paquets vous devez vous connecter. Les mots de passes sont hachés en base de donnée et les communications sont encryptées sous Https.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github-project/meta-movie/meta-movie.component.html</context>
           <context context-type="linenumber">41,44</context>
@@ -411,8 +411,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="read-more-project" datatype="html">
-        <source> click to see a demo, the functionnal, and technical break down <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>read_more<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
-        <target> cliquer pour voire une démo et les détails fonctionnels et techniques <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>read_more<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
+        <source> click to see a demo, the functional, and technical break down <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>read_more<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <target> cliquer pour voir une démo et les détails fonctionnels et techniques <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>read_more<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github.component.html</context>
           <context context-type="linenumber">52,56</context>
@@ -564,7 +564,7 @@
       </trans-unit>
       <trans-unit id="description_meta-movie" datatype="html">
         <source>A browser plugin for Chrome that gives you facts on the form of text bubbles in Netflix videos</source>
-        <target>Une extension d navigateur Chrome qui affiche des anecdotes et faits avec des bulles de texte dans des vidéos Netflix.</target>
+        <target>Une extension de navigateur Chrome qui affiche des anecdotes et faits avec des bulles de texte dans des vidéos Netflix.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
           <context context-type="linenumber">14</context>
@@ -604,7 +604,7 @@
       </trans-unit>
       <trans-unit id="title_workspace-preference" datatype="html">
         <source>WorkSpace preferences</source>
-        <target>préférences d'espace de travail(numérique)</target>
+        <target>Préférences d'espace de travail (numérique)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
           <context context-type="linenumber">34</context>
