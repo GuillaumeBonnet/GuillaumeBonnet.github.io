@@ -1,0 +1,16 @@
+{
+  "xliffmergeOptions": {
+    "srcDir": "src/locale",
+    "defaultLanguage": "en-US",
+    "languages": ["fr-FR"],
+    "removeUnusedIds": true,
+    "supportNgxTranslate": false,
+    "useSourceAsTarget": true,
+    "beautifyOutput": false,
+    "preserveOrder": true,
+    "allowIdChange": false,
+    "autotranslate": false,
+    "verbose": false,
+    "quiet": false
+  }
+}
