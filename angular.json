@@ -66,8 +66,7 @@
               "outputHashing": "all"
             },
             "development": {
-              "localize": ["en-US"],
-              "baseHref": "en-US",
+              "localize": false,
               "buildOptimizer": false,
               "optimization": false,
               "vendorChunk": true,
@@ -75,15 +74,9 @@
               "sourceMap": true,
               "namedChunks": true
             },
-            "developmentFR": {
+            "FR": {
               "localize": ["fr-FR"],
-              "baseHref": "fr-FR",
-              "buildOptimizer": false,
-              "optimization": false,
-              "vendorChunk": true,
-              "extractLicenses": false,
-              "sourceMap": true,
-              "namedChunks": true
+              "baseHref": "fr-FR"
             }
           },
           "defaultConfiguration": "production"
@@ -98,7 +91,7 @@
               "browserTarget": "personal-site:build:development"
             },
             "developmentFR": {
-              "browserTarget": "personal-site:build:developmentFR"
+              "browserTarget": "personal-site:build:development,FR"
             }
           },
           "defaultConfiguration": "development"
