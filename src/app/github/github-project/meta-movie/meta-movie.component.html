@@ -5,11 +5,11 @@
       class="ml-4 w-10 h-10"
       src="/assets/MetaMovie-128x128.png"
       alt="Meta Movie logo"
-      i18n-alt
+      i18n-alt="@@meta-movie-logo"
     />
   </mat-card-title>
   <mat-card-content>
-    <p class="italic text-center" i18n>
+    <p class="italic text-center" i18n="@@meta-movie:description">
       A browser <em class="font-bold">plugin for Chrome</em> that gives you
       <em class="font-bold">facts</em> on the form of text bubbles in
       <em class="font-bold">Netflix</em>
@@ -24,29 +24,31 @@
           class=""
           src="assets/meta-movie-showcase.gif"
           alt="Meta Movie logo"
-          i18n-alt
+          i18n-alt="@@meta-movie-logo"
         />
       </app-fullscreen-container>
     </div>
   </mat-card-content>
   <mat-divider inset></mat-divider>
-  <mat-card-title class="mt-4 flex items-center" i18n>Features</mat-card-title>
+  <mat-card-title class="mt-4 flex items-center" i18n="@@features"
+    >Features</mat-card-title
+  >
   <div class="">
-    <p class="" i18n>
+    <p class="" i18n="@@meta-movie:select-deck">
       On a movie/episode page you can select one of the available decks of fact
       cards.
     </p>
-    <p class="" i18n>
+    <p class="" i18n="@@meta-movie:create-deck">
       To create a deck you need to log in. The passwords are hashed in database
       and the communications are done over Secure Https.
     </p>
   </div>
   <mat-divider inset></mat-divider>
-  <mat-card-title class="mt-4 flex items-center" i18n
+  <mat-card-title class="mt-4 flex items-center" i18n="@@technology"
     >Technology</mat-card-title
   >
   <div class="w-full">
-    <p class="underline" i18n>The plugin's front-end:</p>
+    <p class="underline" i18n="@@title-front-end">The plugin's front-end:</p>
     <ul class="pl-8">
       <li class="" *ngFor="let line of frontEndLines">
         <app-tech-icon
@@ -57,7 +59,7 @@
         <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>
       </li>
     </ul>
-    <p class="mt-4 underline" i18n>The server back-end:</p>
+    <p class="mt-4 underline" i18n="@@title-back-end">The server back-end:</p>
     <ul class="pl-8">
       <li class="" *ngFor="let line of backEndLines">
         <app-tech-icon

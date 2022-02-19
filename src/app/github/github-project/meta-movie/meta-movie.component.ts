@@ -25,49 +25,49 @@ export class MetaMovieComponent implements OnInit {
     {
       iconName: 'typescript',
       text: 'Typescript',
-      secondaryText: $localize`(typing language)`,
+      secondaryText: $localize`:@@typing-language:(typing language)`,
     },
     {
       iconName: 'materialdesign',
       text: 'Material Design web components with a custom theme',
-      secondaryText: $localize`(components)`,
+      secondaryText: $localize`:@@components:(components)`,
     },
     {
       iconName: 'tailwind',
       text: 'tailwindcss',
-      secondaryText: $localize`(css framework)`,
+      secondaryText: $localize`:@@css-framework:(css framework)`,
     },
   ];
   backEndLines: Line[] = [
     {
       iconName: 'nodejs',
       text: 'nodejs',
-      secondaryText: $localize`(language)`,
+      secondaryText: $localize`:@@language:(language)`,
     },
     {
       iconName: 'typescript',
       text: 'Typescript',
-      secondaryText: $localize`(typing language)`,
+      secondaryText: $localize`:@@typing-language:(typing language)`,
     },
     {
       iconName: 'expressjs',
       text: 'express',
-      secondaryText: $localize`(web framework)`,
+      secondaryText: $localize`:@@web-framework:(web framework)`,
     },
     {
       iconName: 'prisma',
       text: 'Prisma',
-      secondaryText: $localize`(database ORM)`,
+      secondaryText: $localize`:@@database-orm:(database ORM)`,
     },
     {
       iconName: 'postgresql',
       text: 'PostgreSQL',
-      secondaryText: $localize`(database)`,
+      secondaryText: $localize`:@@database:(database)`,
     },
     {
       iconName: 'heroku',
       text: 'HEROKU',
-      secondaryText: $localize`(Hosting server platform)`,
+      secondaryText: $localize`:@@hosting-server-platform:(Hosting server platform)`,
     },
   ];
 }

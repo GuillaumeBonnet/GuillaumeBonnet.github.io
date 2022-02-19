@@ -28,39 +28,39 @@ export class FreezerPracticeComponent implements OnInit {
     {
       iconName: 'typescript',
       text: 'Typescript',
-      secondaryText: $localize`(typing language)`,
+      secondaryText: $localize`:@@typing-language:(typing language)`,
     },
     {
       iconName: 'sass',
       text: 'Sass',
-      secondaryText: $localize`(css preprocessor)`,
+      secondaryText: $localize`:@@css-preprocessor:(css preprocessor)`,
     },
     {
       iconName: 'materialdesign',
       text: 'Material Design',
-      secondaryText: $localize`(components)`,
+      secondaryText: $localize`:@@components:(components)`,
     },
   ];
   backEndLines: Line[] = [
     {
       iconName: 'java',
       text: 'Java',
-      secondaryText: $localize`(language)`,
+      secondaryText: $localize`:@@language:(language)`,
     },
     {
       iconName: 'spring',
       text: 'Spring',
-      secondaryText: $localize`(Framework back-end)`,
+      secondaryText: $localize`:@@framework-back-end:(Framework back-end)`,
     },
     {
       iconName: 'postgresql',
       text: 'PostgreSQL',
-      secondaryText: $localize`(database)`,
+      secondaryText: $localize`:@@database:(database)`,
     },
     {
       iconName: 'heroku',
       text: 'HEROKU',
-      secondaryText: $localize`(Hosting server platform)`,
+      secondaryText: $localize`:@@hosting-server-platform:(Hosting server platform)`,
     },
   ];
 }

@@ -23,27 +23,27 @@ export class PersonalSiteComponent implements OnInit {
     {
       iconName: 'angular',
       text: 'Angular',
-      secondaryText: $localize`(framework)`,
+      secondaryText: $localize`:@@framework:(framework)`,
     },
     {
       iconName: 'typescript',
       text: 'Typescript',
-      secondaryText: $localize`(typing language)`,
+      secondaryText: $localize`:@@typing-language:(typing language)`,
     },
     {
       iconName: 'tailwind',
       text: 'tailwind',
-      secondaryText: $localize`(css framework)`,
+      secondaryText: $localize`:@@css-framework:(css framework)`,
     },
     {
       iconName: 'sass',
       text: 'Sass',
-      secondaryText: $localize`(css preprocessor)`,
+      secondaryText: $localize`:@@css-preprocessor:(css preprocessor)`,
     },
     {
       iconName: 'materialdesign',
       text: 'Material Design',
-      secondaryText: $localize`(components and custom theme)`,
+      secondaryText: $localize`:@@components-and-theme:(components and custom theme)`,
     },
   ];
 }
