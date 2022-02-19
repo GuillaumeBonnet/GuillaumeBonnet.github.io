@@ -3,11 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { GithubComponent } from './github/github.component';
 import { LinkedInComponent } from './linked-in/linked-in.component';
-import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movie.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
-import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
-import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
-import { WorkspacePreferenceComponent } from './github/github-project/workspace-preference/workspace-preference.component';
+import { MetaMovieComponent } from './github/meta-movie/meta-movie.component';
+import { FreezerPracticeComponent } from './github/freezer-practice/freezer-practice.component';
+import { PersonalSiteComponent } from './github/personal-site/personal-site.component';
+import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
 
 const routes: Routes = [
   {

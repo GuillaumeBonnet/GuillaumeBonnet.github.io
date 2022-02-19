@@ -54,14 +54,13 @@ import { LinkedInComponent } from './linked-in/linked-in.component';
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { TechIconComponent } from './tech-icon/tech-icon.component';
-import { MetaMovieComponent } from './github/github-project/meta-movie/meta-movie.component';
-import { FreezerPracticeComponent } from './github/github-project/freezer-practice/freezer-practice.component';
 import { GithubProjectComponent } from './github/github-project/github-project.component';
-import { GithubProjectLinkComponent } from './github/github-project/github-project-link/github-project-link.component';
 import { FullscreenContainerComponent } from './utility/fullscreen-container/fullscreen-container.component';
-import { PersonalSiteComponent } from './github/github-project/personal-site/personal-site.component';
-import { WorkspacePreferenceComponent } from './github/github-project/workspace-preference/workspace-preference.component';
-
+import { MetaMovieComponent } from './github/meta-movie/meta-movie.component';
+import { FreezerPracticeComponent } from './github/freezer-practice/freezer-practice.component';
+import { GithubProjectLinkComponent } from './github/github-project-link/github-project-link.component';
+import { PersonalSiteComponent } from './github/personal-site/personal-site.component';
+import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
 @NgModule({
   declarations: [
     AppComponent,
