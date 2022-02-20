@@ -1,5 +1,5 @@
 <mat-card class="flex flex-col justify-center items-center">
-  <mat-card-title class="flex items-center">
+  <mat-card-title class="flex items-center text-3xl my-6">
     Meta Movie
     <img
       class="ml-4 w-10 h-10"
@@ -8,7 +8,7 @@
       i18n-alt="@@meta-movie-logo"
     />
   </mat-card-title>
-  <mat-card-content>
+  <div class="sm:px-8">
     <p class="italic text-center" i18n="@@meta-movie:description">
       A browser <em class="font-bold">plugin for Chrome</em> that gives you
       <em class="font-bold">facts</em> on the form of text bubbles in
@@ -28,17 +28,17 @@
         />
       </app-fullscreen-container>
     </div>
-  </mat-card-content>
-  <mat-divider inset></mat-divider>
+  </div>
+  <mat-divider inset class="mt-6"></mat-divider>
   <mat-card-title
-    class="mt-4 flex items-center"
+    class="mt-4 flex items-center text-center"
     i18n="@@title_published-chrome-store"
   >
     Published on Chrome store
   </mat-card-title>
   <div class="my-4">
     <a
-      class="underline text-lg hover:font-medium"
+      class="link"
       href="
         https://chrome.google.com/webstore/detail/meta-movie/giaclandajbapmfkkoammmmkhaedeiip
       "
@@ -51,27 +51,27 @@
   <mat-card-title class="mt-4 flex items-center" i18n="@@features"
     >Features</mat-card-title
   >
-  <div class="">
-    <p class="" i18n="@@meta-movie:select-deck">
+  <ul class="sm:px-8 pl-4 sm:pl-10">
+    <li class="list-disc" i18n="@@meta-movie:select-deck">
       On a movie/episode page you can select one of the available decks of fact
       cards.
-    </p>
-    <p class="" i18n="@@meta-movie:create-deck">
+    </li>
+    <li class="list-disc mt-2" i18n="@@meta-movie:create-deck">
       To create a deck you need to log in. The passwords are hashed in database
       and the communications are done over Secure Https.
-    </p>
-  </div>
-  <mat-divider inset></mat-divider>
-  <mat-card-title class="mt-4 flex items-center" i18n="@@technology"
+    </li>
+  </ul>
+  <mat-divider inset class="mb-6 mt-4"></mat-divider>
+  <mat-card-title class="flex items-center" i18n="@@technology"
     >Technology</mat-card-title
   >
-  <div class="w-full">
+  <div class="w-full sm:px-8">
     <p class="underline" i18n="@@title-front-end">The plugin's front-end:</p>
     <ul class="pl-8">
       <li class="" *ngFor="let line of frontEndLines">
         <app-tech-icon
           [name]="line.iconName"
-          class="-ml-5 inline-block align-bottom"
+          class="-ml-5 inline-block align-bottom relative bottom-1"
         ></app-tech-icon>
         {{ line.text }}
         <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>
@@ -82,7 +82,7 @@
       <li class="" *ngFor="let line of backEndLines">
         <app-tech-icon
           [name]="line.iconName"
-          class="-ml-5 inline-block align-bottom"
+          class="-ml-5 inline-block align-bottom relative bottom-1"
         ></app-tech-icon>
         {{ line.text }}
         <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>

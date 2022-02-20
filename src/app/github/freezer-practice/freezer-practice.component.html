@@ -1,10 +1,10 @@
-<mat-card
-  class="flex flex-col justify-center items-center md:text-base md:p-12"
->
-  <mat-card-title class="flex items-center" i18n="@@freezer-practice"
+<mat-card class="flex flex-col justify-center items-center">
+  <mat-card-title
+    class="flex items-center text-3xl my-6"
+    i18n="@@freezer-practice"
     >freezer-practice</mat-card-title
   >
-  <mat-card-content>
+  <div class="sm:px-8">
     <p
       class="italic text-center"
       i18n="@@freezer-practice:freezer-practice-description"
@@ -16,7 +16,7 @@
     <app-github-project-link [url]="projects['freezer-practice'].githubUrl">
     </app-github-project-link>
 
-    <p class="" i18n="@@freezer-practice:cold-start">
+    <p class="text-center sm:text-left" i18n="@@freezer-practice:cold-start">
       The real site has a
       <strong>cold start</strong> because it is hosted on a free plan on heroku.
       It sleeps when there is no web traffic in a 30-minute period.
@@ -66,37 +66,37 @@
         ></iframe>
       </div>
     </div>
-  </mat-card-content>
+  </div>
 
-  <mat-divider inset></mat-divider>
+  <mat-divider inset class="mb-6 mt-10"></mat-divider>
   <mat-card-title class="mt-4 flex items-center" i18n="@@features"
     >Features</mat-card-title
   >
-  <ul class="w-full pl-4 md:pl-0">
-    <li class="list-disc" i18n="@@freezer-practice:description-auth">
+  <ul class="w-full pl-4 sm:px-8 sm:pl-12">
+    <li class="list-disc my-1" i18n="@@freezer-practice:description-auth">
       <strong>Secure authentication</strong> where passwords are saved hashed.
     </li>
-    <li class="list-disc" i18n="@@freezer-practice:description-email">
+    <li class="list-disc my-1" i18n="@@freezer-practice:description-email">
       Email verification and password reset through
       <strong>email messages</strong>
     </li>
-    <li class="list-disc" i18n="@@freezer-practice:description-content">
+    <li class="list-disc my-1" i18n="@@freezer-practice:description-content">
       Collection of <strong>freezers</strong> which each contain their own
       collections of <strong>aliments</strong>.
     </li>
-    <li class="list-disc" i18n="@@freezer-practice:description-crud">
+    <li class="list-disc my-1" i18n="@@freezer-practice:description-crud">
       Create, remove, edit any elements.
     </li>
-    <li class="list-disc" i18n="@@freezer-practice:description-icons">
+    <li class="list-disc my-1" i18n="@@freezer-practice:description-icons">
       Integration of custom svg <strong>icons</strong>.
     </li>
   </ul>
 
-  <mat-divider inset></mat-divider>
-  <mat-card-title class="mt-4 flex items-center" i18n="@@technology"
+  <mat-divider inset class="my-6"></mat-divider>
+  <mat-card-title class="flex items-center" i18n="@@technology"
     >Technology</mat-card-title
   >
-  <div class="w-full">
+  <div class="w-full sm:px-8">
     <p class="underline" i18n="@@title-front-end">The plugin's front-end:</p>
     <ul class="pl-8">
       <li class="" *ngFor="let line of frontEndLines">

@@ -1,10 +1,10 @@
-<mat-card
-  class="flex flex-col justify-center items-center md:text-base md:p-12"
->
-  <mat-card-title class="flex items-center" i18n="@@personal-site:main-title"
-    >this-site</mat-card-title
+<mat-card class="flex flex-col justify-center items-center md:p-12">
+  <mat-card-title
+    class="flex items-center text-3xl py-4"
+    i18n="@@personal-site:main-title"
+    >This site</mat-card-title
   >
-  <mat-card-content>
+  <div>
     <p class="italic text-center" i18n="@@personal-site:description">
       A static <em class="font-bold">Responsive website</em> (mobile and
       desktop) hosted on github.
@@ -13,7 +13,7 @@
     <app-github-project-link [url]="projects['personal-site'].githubUrl">
     </app-github-project-link>
 
-    <p class="" i18n="@@personal-site:mobile-explanation">
+    <p class="text-center" i18n="@@personal-site:mobile-explanation">
       For Desktop users the mobile version of the site will be shown in a
       rectangle bellow.
     </p>
@@ -48,5 +48,5 @@
       </ul>
     </div>
     <mat-divider inset class="mt-2"></mat-divider>
-  </mat-card-content>
+  </div>
 </mat-card>

@@ -1,10 +1,8 @@
-<mat-card
-  class="flex flex-col justify-center items-center md:text-base md:p-12"
->
-  <mat-card-title class="flex items-center">
+<mat-card class="flex flex-col justify-center items-center md:p-12">
+  <mat-card-title class="flex items-center text-3xl text-center">
     {{ projectData.title }}
   </mat-card-title>
-  <mat-card-content>
+  <div>
     <p class="mt-2 italic text-center">
       {{ projectData.description }}
     </p>
@@ -22,5 +20,5 @@
       <em>settings.json</em>, vscode <em>snippets</em> json are synchronized
       through the use of symbolic links and a git repository.
     </p>
-  </mat-card-content>
+  </div>
 </mat-card>

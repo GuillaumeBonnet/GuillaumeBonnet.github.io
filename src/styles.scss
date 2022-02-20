@@ -3,6 +3,13 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@css {
+  @layer components {
+    .link {
+      @apply text-blue-500 hover:underline;
+    }
+  }
+}
 
 // Include the common styles for Angular Material. We include this here so that you only
 // have to load a single css file for Angular Material in your app.

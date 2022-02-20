@@ -1,9 +1,47 @@
-<mat-card class="flex flex-col justify-center items-center">
-  <mat-card-title class="flex items-center" i18n="@@about-me-title">
+<mat-card
+  class="
+    flex flex-col
+    justify-center
+    items-center
+    sm:mt-16
+    border
+    sm:border-2
+    border-black
+  "
+>
+  <mat-card-title class="flex items-center text-3xl" i18n="@@about-me-title">
     About me
   </mat-card-title>
-  <mat-card-content>
-    <p class="" i18n="@@about:content">I'm a front end developer.</p>
-  </mat-card-content>
-  <mat-divider inset></mat-divider>
+  <div i18n="@@about:content" class="text-center my-8 sm:p-8">
+    <p class="">I am a developer based in Lyon (France).</p>
+    <mat-divider inset class="w-2/3 mx-auto mb-6 mt-4"></mat-divider>
+    <p class="">
+      I've been working for the past 5 years as a
+      <strong class="font-bold">full stack developer</strong> on many projects
+      with the
+      <a
+        href="https://www.salesforce.com/fr/products/what-is-salesforce/"
+        class="link"
+        target="_blank"
+        >Salesforce platform</a
+      >.
+    </p>
+    <mat-divider inset class="w-2/3 mx-auto mb-6 mt-4"></mat-divider>
+    <p class="">
+      This site showcases
+      <a routerLink="/github/home" routerLinkActive="active">
+        <strong class="font-bold">hobby projects</strong>
+      </a>
+      I did in various back-end and front-end technologies.
+    </p>
+    <mat-divider inset class="w-2/3 mx-auto mb-6 mt-4"></mat-divider>
+    <p class="">
+      I am open for
+      <a class="link" routerLink="/linked-in" routerLinkActive="active">job</a>
+      opportunities as a
+      <strong class="font-bold">TypeScript developer</strong> working with
+      Angular, Vue.js(TypeScript) or Node.js(TypeScript).
+    </p>
+  </div>
+  <mat-divider inset class="mt-8"></mat-divider>
 </mat-card>

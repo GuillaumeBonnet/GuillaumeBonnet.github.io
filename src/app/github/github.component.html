@@ -1,11 +1,15 @@
-<a href="https://github.com/GuillaumeBonnet" target="_blank">
+<a
+  href="https://github.com/GuillaumeBonnet"
+  target="_blank"
+  class="text-base sm:text-xl"
+>
   <mat-card class="flex flex-col justify-center items-center">
-    <mat-card-title class="flex items-center">
-      Github <fa-icon class="ml-4 text-xl" [icon]="faGithub"></fa-icon>
+    <mat-card-title class="flex items-center text-3xl">
+      Github <fa-icon class="ml-4" [icon]="faGithub"></fa-icon>
     </mat-card-title>
-    <mat-card-content>
-      <div i18n="@@view-my-profile">View my profile</div>
-    </mat-card-content>
+    <div>
+      <div class="link" i18n="@@view-my-profile">View my profile</div>
+    </div>
     <mat-divider inset></mat-divider>
   </mat-card>
 </a>
@@ -14,7 +18,7 @@
   <mat-card-title class="flex items-center" i18n="@@main-projects">
     Main projects
   </mat-card-title>
-  <mat-card-content class="w-full flex flex-wrap">
+  <div class="w-full flex flex-wrap">
     <div *ngFor="let project of projects" class="w-12/12 sm:w-6/12 pt-2 sm:p-2">
       <div
         class="
@@ -29,28 +33,28 @@
         "
       >
         <a
-          class="group-hover:font-medium text-lg"
+          class=""
           [routerLink]="project.urlFragment"
           routerLinkActive="active"
         >
           {{ project.title }}
         </a>
-        <div class="flex justify-center">
+        <div class="flex justify-center my-2">
           <app-tech-icon
             *ngFor="let iconName of project.techIcons"
             [name]="iconName"
             class="m-1"
           ></app-tech-icon>
         </div>
-        <div class="mt-2 italic flex-grow">
+        <div class="italic flex-grow text-base sm:text-lg">
           {{ project.description }}
         </div>
         <a [routerLink]="project.urlFragment" routerLinkActive="active">
           <button
-            class="mt-2 bg-gray-800 p-2 cursor-pointer"
+            class="mt-4 bg-gray-800 p-2 cursor-pointer text-sm sm:text-lg"
             i18n="@@read-more-project"
           >
-            click to see a demo, the functionnal, and technical break down
+            click to see a demo, the functionnal, and technical breakdown
             <div>
               <mat-icon>read_more</mat-icon>
             </div>
@@ -58,6 +62,6 @@
         </a>
       </div>
     </div>
-  </mat-card-content>
+  </div>
   <mat-divider inset></mat-divider>
 </mat-card>
