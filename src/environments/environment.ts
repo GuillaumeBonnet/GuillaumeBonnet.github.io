@@ -3,7 +3,11 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  links: {
+    freezer: 'http://localhost:4200',
+    personalSite: 'http://localhost:4201',
+  },
 };
 
 /*

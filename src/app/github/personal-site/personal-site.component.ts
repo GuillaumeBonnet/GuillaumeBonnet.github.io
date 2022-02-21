@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { AvailableTechIcons } from 'src/app/tech-icon/tech-icon.component';
+import { environment } from 'src/environments/environment';
 import { projects } from 'src/projectData';
 
 type Line = {
@@ -14,7 +16,12 @@ type Line = {
   styleUrls: ['./personal-site.component.scss'],
 })
 export class PersonalSiteComponent implements OnInit {
-  constructor() {}
+  constructor(private sanitizer: DomSanitizer) {
+    this.iFrameUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
+      environment.links.personalSite
+    );
+  }
+  iFrameUrl: SafeResourceUrl;
   projects = projects;
 
   ngOnInit(): void {}

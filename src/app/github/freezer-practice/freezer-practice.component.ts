@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { AvailableTechIcons } from 'src/app/tech-icon/tech-icon.component';
+import { environment } from 'src/environments/environment';
 import { projects } from 'src/projectData';
 
 type Line = {
@@ -15,7 +17,12 @@ type Line = {
 })
 export class FreezerPracticeComponent implements OnInit {
   projects = projects;
-  constructor() {}
+  constructor(private sanitizer: DomSanitizer) {
+    this.iFrameUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
+      environment.links.freezer + '/freezers'
+    );
+  }
+  iFrameUrl: SafeResourceUrl;
 
   ngOnInit(): void {}
 
