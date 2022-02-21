@@ -20,7 +20,7 @@
           <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           I've been working for the past 5 years as a
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
         >" />
           full stack developer
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
@@ -40,7 +40,7 @@
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           This site showcases
           <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;>" />
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
         >" />
           hobby projects
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
@@ -56,7 +56,7 @@
           job
           <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
           opportunities as a
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
         >" />
           <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;>" />
           <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
@@ -82,8 +82,8 @@
           <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
           <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
-          Je travail depuis 5 ans en tant que
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
+          Je travaille depuis 5 ans en tant que
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
         >" />
           développeur full stack
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
@@ -103,7 +103,7 @@
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           Ce site présente mes
           <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;>" />
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
         >" />
           projets hobby
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
@@ -119,11 +119,12 @@
           travail
           <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
           en tant que
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
         >" />
+          développeur
           <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;>" />
           <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
-          développeur TypeScript
+          TypeScript
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
       >" />
           qui travaille avec
@@ -181,19 +182,18 @@
       <trans-unit id="freezer-practice:freezer-practice-description" datatype="html">
         <source>
           A
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           website
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           for mobile only that displays freezer and aliments
         </source>
         <target>
           Un
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           site web
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           pour les smartphones uniquement qui affiche des réfrigérateurs et leurs aliments.
         </target>
-
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">11</context>
@@ -249,7 +249,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-auth" datatype="html">
@@ -360,11 +360,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title-front-end" datatype="html">
@@ -378,11 +378,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title-back-end" datatype="html">
@@ -396,7 +396,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="typing-language" datatype="html">
@@ -536,38 +536,38 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meta-movie:description" datatype="html">
         <source>
           A browser
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>" />
           plugin for Chrome
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           that gives you
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           facts
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           on the form of text bubbles in
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           Netflix
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           videos
         </source>
         <target>
           Une
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>" />
           extension de navigateur pour Chrome
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           qui affiche des
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           anecdotes et faits
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           avec des bulles de texte dans des vidéos
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           Netflix
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
         </target>
 
         <context-group purpose="location">
@@ -580,33 +580,36 @@
         <target state="new"> Publiée sur le Chrome store </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">36,38</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="try-it" datatype="html">
         <source>Try it</source>
         <target state="new">Essayez l'extension</target>
+
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meta-movie:select-deck" datatype="html">
         <source> On a movie/episode page you can select one of the available decks of fact cards. </source>
-        <target> Sur une page de film/série vous pouvez sélectionner l'un des paquets de cartes/faits disponibles. </target>
+        <target> Sur une page de film/série vous pouvez sélectionner l'un des paquets de cartes-infos disponibles. </target>
+
 
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meta-movie:create-deck" datatype="html">
         <source> To create a deck you need to log in. The passwords are hashed in database and the communications are done over Secure Https. </source>
         <target> Pour créer un paquets vous devez vous connecter. Les mots de passes sont hachés en base de donnée et les communications sont encryptées sous Https.</target>
 
+
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="css-framework" datatype="html">
@@ -653,16 +656,16 @@
       <trans-unit id="personal-site:description" datatype="html">
         <source>
           A static
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           Responsive website
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           (mobile and desktop) hosted on github.
         </source>
         <target>
           Un
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           site web réactif
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           (mobiles et ordinateurs) et static hébergé sur github.
         </target>
 
@@ -675,9 +678,10 @@
         <source> For Desktop users the mobile version of the site will be shown in a rectangle bellow. </source>
         <target> Pour les utilisateurs d'ordinateurs la version mobile du site est affichée dans un rectangle en dessous.</target>
 
+
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">16</context>
+          <context context-type="linenumber">17</context>
         </context-group>
       </trans-unit>
       <trans-unit id="framework" datatype="html">
@@ -701,32 +705,32 @@
       <trans-unit id="workspace-preference:description" datatype="html">
         <source>
           Global configuration files such as git's
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           .gitconfig
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           , VSCode's
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           settings.json
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           , vscode
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           snippets
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           json are synchronized through the use of symbolic links and a git repository.
         </source>
         <target>
           Fichiers de configuration globaux comme git's
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           .gitconfig
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           , VSCode's
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           settings.json
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           , vscode
-          <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           snippets
-          <x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em>" />
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           json sont synchronisé avec l'aide de liens symboliques et un repository git.
         </target>
 

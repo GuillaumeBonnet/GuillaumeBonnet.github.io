@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en-US" datatype="plaintext" original="ng2.template">
     <body>
@@ -10,17 +10,69 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about:content" datatype="html">
-        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/>I am a developer based in Lyon (France).<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/> I&apos;ve been working for the past 5 years as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
-        &gt;"/>full stack developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-      &gt;"/> on many projects with the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+        <source>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
+          I am a developer based in Lyon (France).
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
+          I&apos;ve been working for the past 5 years as a
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
+        &gt;" />
+          full stack developer
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+      &gt;" />
+          on many projects with the
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
         href=&quot;https://www.salesforce.com/fr/products/what-is-salesforce/&quot;
         class=&quot;link&quot;
         target=&quot;_blank&quot;
-        &gt;"/>Salesforce platform<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/> This site showcases <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;&gt;"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
-        &gt;"/>hobby projects<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-      &gt;"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> I did in various back-end and front-end technologies. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/> I am open for <x id="START_LINK_2" equiv-text="&lt;a class=&quot;link&quot; routerLink=&quot;/linked-in&quot; routerLinkActive=&quot;active&quot;&gt;"/>job<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> opportunities as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-bold&quot;
-        &gt;"/><x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;&gt;"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;"/>TypeScript developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-      &gt;"/> working with <x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;&gt;"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;"/>Angular , <x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;&gt;"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;"/>Vue.js (TypeScript) or <x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;&gt;"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;"/>Node.js (TypeScript). <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
+        &gt;" />
+          Salesforce platform
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          .
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
+          This site showcases
+          <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;&gt;" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
+        &gt;" />
+          hobby projects
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+      &gt;" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          I did in various back-end and front-end technologies.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
+          I am open for
+          <x id="START_LINK_2" equiv-text="&lt;a class=&quot;link&quot; routerLink=&quot;/linked-in&quot; routerLinkActive=&quot;active&quot;&gt;" />
+          job
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
+          opportunities as a
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
+        &gt;" />
+          <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;&gt;" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
+          TypeScript developer
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+      &gt;" />
+          working with
+          <x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;&gt;" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
+          Angular ,
+          <x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;&gt;" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
+          Vue.js (TypeScript) or
+          <x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;&gt;" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
+          Node.js (TypeScript).
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
           <context context-type="linenumber">16,52</context>
@@ -55,14 +107,26 @@
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:freezer-practice-description" datatype="html">
-        <source> A <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>website<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> for mobile only that displays freezer and aliments </source>
+        <source>
+          A
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;" />
+          website
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          for mobile only that displays freezer and aliments
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">11,14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:cold-start" datatype="html">
-        <source> The real site has a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>cold start<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> because it is hosted on a free plan on heroku. It sleeps when there is no web traffic in a 30-minute period. </source>
+        <source>
+          The real site has a
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          cold start
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          because it is hosted on a free plan on heroku. It sleeps when there is no web traffic in a 30-minute period.
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">19,23</context>
@@ -90,25 +154,45 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">52</context>
+          <context context-type="linenumber">53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-auth" datatype="html">
-        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Secure authentication<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> where passwords are saved hashed. </source>
+        <source>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          Secure authentication
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          where passwords are saved hashed.
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">77,78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-email" datatype="html">
-        <source> Email verification and password reset through <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>email messages<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/></source>
+        <source>
+          Email verification and password reset through
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          email messages
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">79,81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-content" datatype="html">
-        <source> Collection of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>freezers<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> which each contain their own collections of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>aliments<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <source>
+          Collection of
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          freezers
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          which each contain their own collections of
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          aliments
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          .
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">83,86</context>
@@ -122,7 +206,13 @@
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-icons" datatype="html">
-        <source> Integration of custom svg <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>icons<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>. </source>
+        <source>
+          Integration of custom svg
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          icons
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          .
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">90,92</context>
@@ -136,11 +226,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">66</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">33</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title-front-end" datatype="html">
@@ -151,11 +241,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">69</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title-back-end" datatype="html">
@@ -166,7 +256,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">80</context>
+          <context context-type="linenumber">81</context>
         </context-group>
       </trans-unit>
       <trans-unit id="typing-language" datatype="html">
@@ -251,7 +341,11 @@
         </context-group>
       </trans-unit>
       <trans-unit id="github-project:link" datatype="html">
-        <source> Github repository <x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon class=&quot;ml-2 text-xl&quot; [icon]=&quot;faGithub&quot;&gt;"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;"/></source>
+        <source>
+          Github repository
+          <x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon class=&quot;ml-2 text-xl&quot; [icon]=&quot;faGithub&quot;&gt;" />
+          <x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon&gt;" />
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github-project-link/github-project-link.component.html</context>
           <context context-type="linenumber">2,4</context>
@@ -279,7 +373,14 @@
         </context-group>
       </trans-unit>
       <trans-unit id="read-more-project" datatype="html">
-        <source> click to see a demo, the functional, and technical breakdown <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;"/>read_more<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;"/></source>
+        <source>
+          click to see a demo, the functional, and technical breakdown
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div&gt;" />
+          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon&gt;" />
+          read_more
+          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon&gt;" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;" />
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/github.component.html</context>
           <context context-type="linenumber">56,60</context>
@@ -293,42 +394,56 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meta-movie:description" datatype="html">
-        <source> A browser <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>plugin for Chrome<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> that gives you <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>facts<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> on the form of text bubbles in <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Netflix<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> videos </source>
+        <source>
+          A browser
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;&gt;" />
+          plugin for Chrome
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          that gives you
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;" />
+          facts
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          on the form of text bubbles in
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;" />
+          Netflix
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          videos
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">12,17</context>
+          <context context-type="linenumber">12,18</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title_published-chrome-store" datatype="html">
         <source> Published on Chrome store </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">36,38</context>
+          <context context-type="linenumber">37,39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="try-it" datatype="html">
         <source>Try it</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">47</context>
+          <context context-type="linenumber">48</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meta-movie:select-deck" datatype="html">
         <source> On a movie/episode page you can select one of the available decks of fact cards. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">55,58</context>
+          <context context-type="linenumber">56,59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="meta-movie:create-deck" datatype="html">
         <source> To create a deck you need to log in. The passwords are hashed in database and the communications are done over Secure Https. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">59,62</context>
+          <context context-type="linenumber">60,63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="css-framework" datatype="html">
@@ -364,17 +479,23 @@
         </context-group>
       </trans-unit>
       <trans-unit id="personal-site:description" datatype="html">
-        <source> A static <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em class=&quot;font-bold&quot;&gt;"/>Responsive website<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> (mobile and desktop) hosted on github. </source>
+        <source>
+          A static
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;" />
+          Responsive website
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          (mobile and desktop) hosted on github.
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">8,11</context>
+          <context context-type="linenumber">8,12</context>
         </context-group>
       </trans-unit>
       <trans-unit id="personal-site:mobile-explanation" datatype="html">
         <source> For Desktop users the mobile version of the site will be shown in a rectangle bellow. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">16,19</context>
+          <context context-type="linenumber">17,20</context>
         </context-group>
       </trans-unit>
       <trans-unit id="framework" datatype="html">
@@ -392,10 +513,24 @@
         </context-group>
       </trans-unit>
       <trans-unit id="workspace-preference:description" datatype="html">
-        <source> Global configuration files such as git&apos;s<x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>.gitconfig<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, VSCode&apos;s <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>settings.json<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/>, vscode <x id="START_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;em&gt;"/>snippets<x id="CLOSE_EMPHASISED_TEXT" ctype="x-em" equiv-text="&lt;/em&gt;"/> json are synchronized through the use of symbolic links and a git repository. </source>
+        <source>
+          Global configuration files such as git&apos;s
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          .gitconfig
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          , VSCode&apos;s
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          settings.json
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          , vscode
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;" />
+          snippets
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;" />
+          json are synchronized through the use of symbolic links and a git repository.
+        </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/workspace-preference/workspace-preference.component.html</context>
-          <context context-type="linenumber">18,22</context>
+          <context context-type="linenumber">18,23</context>
         </context-group>
       </trans-unit>
       <trans-unit id="linked-in:link-text" datatype="html">
