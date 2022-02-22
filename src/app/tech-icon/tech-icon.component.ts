@@ -122,7 +122,7 @@ export class TechIconComponent implements OnInit {
     }
     this.iconDefiniton = {
       ...iconMap[this.name],
-      path: iconMap[this.name].longPath.split('/src')[1],
+      path: iconMap[this.name].longPath.split('/src/')[1],
       // leveraging auto completion of vscode to fill .longPath attribute
     };
   }
