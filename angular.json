@@ -12,7 +12,7 @@
         "locales": {
           "fr-FR": {
             "translation": "src/locale/messages.fr-FR.xlf",
-            "baseHref": "fr-FR"
+            "baseHref": "/fr-FR/"
           }
         }
       },
@@ -76,7 +76,7 @@
             },
             "FR": {
               "localize": ["fr-FR"],
-              "baseHref": "fr-FR"
+              "baseHref": "/fr-FR/"
             }
           },
           "defaultConfiguration": "production"

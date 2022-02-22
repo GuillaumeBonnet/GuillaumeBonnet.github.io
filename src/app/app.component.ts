@@ -34,7 +34,7 @@ export class AppComponent {
       }
     });
 
-    if (locationStrategy.getBaseHref() == '/fr-FR') {
+    if (locationStrategy.getBaseHref() == '/fr-FR/') {
       this.isFr = true;
     }
   }
