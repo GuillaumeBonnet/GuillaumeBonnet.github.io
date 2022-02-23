@@ -62,6 +62,7 @@ import { GithubProjectLinkComponent } from './github/github-project-link/github-
 import { PersonalSiteComponent } from './github/personal-site/personal-site.component';
 import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
 import { LanguagePickerComponent } from './language-picker/language-picker.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 @NgModule({
   declarations: [
     AppComponent,
@@ -92,6 +93,7 @@ import { LanguagePickerComponent } from './language-picker/language-picker.compo
     MatToolbarModule,
     FontAwesomeModule,
     MatSidenavModule,
+    ScullyLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
