@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router, RoutesRecognized } from '@angular/router';
 import { MediaMatcher } from '@angular/cdk/layout';
 import {
@@ -6,6 +6,7 @@ import {
   LocationStrategy,
   PathLocationStrategy,
 } from '@angular/common';
+import { MatDrawer } from '@angular/material/sidenav';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,10 @@ import {
 })
 export class AppComponent {
   isUnderTailwindSmall: MediaQueryList;
+  @ViewChild('drawer')
+  drawer!: MatDrawer;
+
+
   constructor(
     router: Router,
     media: MediaMatcher,
@@ -31,6 +36,7 @@ export class AppComponent {
     router.events.subscribe((event) => {
       if (event instanceof RoutesRecognized) {
         this.url = event.urlAfterRedirects;
+        this.drawer?.close();
       }
     });
 
