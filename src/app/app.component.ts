@@ -7,6 +7,7 @@ import {
   PathLocationStrategy,
 } from '@angular/common';
 import { MatDrawer } from '@angular/material/sidenav';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -26,7 +27,8 @@ export class AppComponent {
   constructor(
     router: Router,
     media: MediaMatcher,
-    locationStrategy: LocationStrategy
+    locationStrategy: LocationStrategy,
+    titleService: Title
   ) {
     this.isUnderTailwindSmall = media.matchMedia('(max-width: 640px)');
     this.isUnderTailwindSmall.addEventListener('change', (ev) => {
@@ -42,6 +44,7 @@ export class AppComponent {
 
     if (locationStrategy.getBaseHref() == '/fr-FR/') {
       this.isFr = true;
+      titleService.setTitle('Guillaume Bonnet - Développeur fullstack');
     }
   }
 
