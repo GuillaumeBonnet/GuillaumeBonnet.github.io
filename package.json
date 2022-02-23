@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --port 4201",
     "start:fr": "ng serve --port 4201 --configuration developmentFR",
-    "build": "ng build && npm run scully:en-US && npm run scully:fr-FR",
+    "build": "ng build && npm run scully:en-US && npm run scully:fr-FR && cd dist/static/ && git commit -a -m \"Build step: automatic commit\"",
     "scully:en-US": "env LOCALE=en-US scully",
     "scully:fr-FR": "env LOCALE=fr-FR scully",
     "watch": "ng build --watch --configuration development",
