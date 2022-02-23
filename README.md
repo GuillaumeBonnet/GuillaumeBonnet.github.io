@@ -5,7 +5,7 @@
   git checkout --orphan gh-pages
   git reset --hard
   git commit --allow-empty -m "Init gh-pages branch"
-  git checkout master
+  git checkout main
   git worktree add dist/static gh-pages
 
 # what is done at the end of the build script
