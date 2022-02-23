@@ -1,3 +1,4 @@
+import { LocationStrategy } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import { AvailableTechIcons } from 'src/app/tech-icon/tech-icon.component';
@@ -16,9 +17,9 @@ type Line = {
   styleUrls: ['./personal-site.component.scss'],
 })
 export class PersonalSiteComponent implements OnInit {
-  constructor(private sanitizer: DomSanitizer) {
+  constructor(private sanitizer: DomSanitizer, locationStrategy: LocationStrategy) {
     this.iFrameUrl = this.sanitizer.bypassSecurityTrustResourceUrl(
-      environment.links.personalSite
+      environment.links.personalSite + locationStrategy.getBaseHref()
     );
   }
   iFrameUrl: SafeResourceUrl;
