@@ -5,12 +5,13 @@
     "ng": "ng",
     "start": "ng serve --port 4201",
     "start:fr": "ng serve --port 4201 --configuration developmentFR",
-    "build": "ng build && npm run scully:en-US && npm run scully:fr-FR && cd dist/static/ && git add -A && git commit -a -m \"Build step: automatic commit\"",
+    "build": "npm run rmdir dist/static/en-US/ dist/static/fr-FR/  && ng build && npm run scully:en-US && npm run scully:fr-FR && cd dist/static/ && git add -A && git commit -a -m \"Build step: automatic commit\"",
     "scully:en-US": "env LOCALE=en-US scully",
     "scully:fr-FR": "env LOCALE=fr-FR scully",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "extract-i18n": "ng extract-i18n --output-path src/locale && xliffmerge --profile ./src/locale/xliffmerge.json fr-FR"
+    "extract-i18n": "ng extract-i18n --output-path src/locale && xliffmerge --profile ./src/locale/xliffmerge.json fr-FR",
+    "rmdir": "node -e \"var fs = require('fs'); process.argv.slice(1).map((fpath) => fs.rmdirSync(fpath, { recursive: true })); process.exit(0);\""
   },
   "private": true,
   "dependencies": {
