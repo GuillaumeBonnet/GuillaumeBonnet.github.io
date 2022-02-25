@@ -49,7 +49,7 @@
           <li class="mx-2" *ngFor="let navItem of navData">
             <a [routerLink]="navItem.url" routerLinkActive="active">
               <button
-                *ngIf="url == navItem.url; else buttonStandard"
+                *ngIf="url == navItem.url || url=='/' && navItem.url == '/about'; else buttonStandard"
                 class=""
                 type="button"
                 [attr.mat-button]="url != navItem.url"
