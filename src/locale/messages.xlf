@@ -12,14 +12,13 @@
       <trans-unit id="about:content" datatype="html">
         <source>
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
-          I am a developer based in Lyon (France).
+          I am a developer based in Lyon(France).
           <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
           <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;" />
           <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;" />
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
           I&apos;ve been working for the past 5 years as a
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
-        &gt;" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;" />
           full stack developer
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
       &gt;" />
@@ -38,8 +37,7 @@
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;" />
           This site showcases
           <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;&gt;" />
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
-        &gt;" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;" />
           hobby projects
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
       &gt;" />
@@ -54,28 +52,36 @@
           job
           <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;" />
           opportunities as a
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold whitespace-nowrap&quot;
         &gt;" />
           <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;&gt;" />
           <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
           TypeScript developer
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
       &gt;" />
-          working with
+          with
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;&gt;" />
           <x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;&gt;" />
           <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
-          Angular ,
+          Angular
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          ,
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;&gt;" />
           <x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;&gt;" />
           <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
-          Vue.js (TypeScript) or
+          Vue.js
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
+          or
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;&gt;" />
           <x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;&gt;" />
           <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon&gt;" />
-          Node.js (TypeScript).
+          Node.js.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;" />
           <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;" />
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
-          <context context-type="linenumber">16,52</context>
+          <context context-type="linenumber">16,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="menu-button-arial-label" datatype="html">
@@ -89,14 +95,14 @@
         <source>About</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="nav-link-github" datatype="html">
         <source>Github / Port Folio</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">50</context>
+          <context context-type="linenumber">59</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice" datatype="html">
@@ -136,21 +142,21 @@
         <source> Demonstration giff </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">42,44</context>
+          <context context-type="linenumber">36,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:real-site-label" datatype="html">
         <source> Real site in production </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">58,60</context>
+          <context context-type="linenumber">52,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="features" datatype="html">
         <source>Features</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">67</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
@@ -166,7 +172,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">77,78</context>
+          <context context-type="linenumber">71,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-email" datatype="html">
@@ -178,7 +184,7 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">79,81</context>
+          <context context-type="linenumber">73,75</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-content" datatype="html">
@@ -195,14 +201,14 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">83,86</context>
+          <context context-type="linenumber">77,80</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-crud" datatype="html">
         <source> Create, remove, edit any elements. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">87,89</context>
+          <context context-type="linenumber">81,83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-icons" datatype="html">
@@ -215,14 +221,14 @@
         </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">90,92</context>
+          <context context-type="linenumber">84,86</context>
         </context-group>
       </trans-unit>
       <trans-unit id="technology" datatype="html">
         <source>Technology</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">91</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
@@ -237,7 +243,7 @@
         <source>The plugin&apos;s front-end:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">100</context>
+          <context context-type="linenumber">94</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
@@ -252,7 +258,7 @@
         <source>The server back-end:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">111</context>
+          <context context-type="linenumber">105</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
@@ -263,7 +269,7 @@
         <source>(typing language)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">38</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.ts</context>
@@ -275,25 +281,25 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">39</context>
         </context-group>
       </trans-unit>
       <trans-unit id="css-preprocessor" datatype="html">
         <source>(css preprocessor)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">43</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="components" datatype="html">
         <source>(components)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">41</context>
+          <context context-type="linenumber">48</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.ts</context>
@@ -304,7 +310,7 @@
         <source>(language)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">48</context>
+          <context context-type="linenumber">55</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.ts</context>
@@ -315,14 +321,14 @@
         <source>(Framework back-end)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">53</context>
+          <context context-type="linenumber">60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="database" datatype="html">
         <source>(database)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">58</context>
+          <context context-type="linenumber">65</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.ts</context>
@@ -333,7 +339,7 @@
         <source>(Hosting server platform)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.ts</context>
-          <context context-type="linenumber">63</context>
+          <context context-type="linenumber">70</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.ts</context>
@@ -454,7 +460,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
-          <context context-type="linenumber">36</context>
+          <context context-type="linenumber">44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="web-framework" datatype="html">
@@ -502,14 +508,14 @@
         <source>(framework)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
-          <context context-type="linenumber">26</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="components-and-theme" datatype="html">
         <source>(components and custom theme)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
-          <context context-type="linenumber">46</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="workspace-preference:description" datatype="html">

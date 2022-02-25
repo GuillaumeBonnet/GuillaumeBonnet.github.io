@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4201",
-    "start:fr": "ng serve --port 4201 --configuration developmentFR",
+    "start:fr": "ng serve --port 4202 --configuration developmentFR",
     "build": "npm run rmdir dist/static/en-US/ dist/static/fr-FR/  && ng build && npm run scully:en-US && npm run scully:fr-FR && cd dist/static/ && git add -A && git commit -a -m \"Build step: automatic commit\" && cp dist/static/fr-FR/index.html dist/static/",
     "scully:en-US": "env LOCALE=en-US scully",
     "scully:fr-FR": "env LOCALE=fr-FR scully",
