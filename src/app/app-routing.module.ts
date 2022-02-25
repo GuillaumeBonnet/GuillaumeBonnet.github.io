@@ -21,7 +21,7 @@ const routes: Routes = [
     ],
   },
   { path: 'github/home', component: GithubComponent },
-  { path: 'home', component: AboutComponent },
+  { path: 'about', component: AboutComponent },
   { path: 'linked-in', component: LinkedInComponent },
   { path: '**', component: AboutComponent },
 ];
