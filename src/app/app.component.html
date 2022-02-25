@@ -10,7 +10,9 @@
     >
       <mat-icon>menu</mat-icon>
     </button>
-    <span>Guillaume Bonnet</span>
+    <a routerLink="/about" routerLinkActive="active" class="">
+      Guillaume Bonnet
+    </a>
     <app-language-picker
       class="ml-auto"
       [isFr]="isFr"
@@ -38,7 +40,9 @@
 <!-- desktop menu -->
 <div *ngIf="!isUnderTailwindSmall.matches" class="h-full flex flex-col">
   <mat-toolbar class="h-auto p-4">
-    <div class="pl-4">Guillaume Bonnet</div>
+    <a routerLink="/about" routerLinkActive="active" class="pl-4">
+      Guillaume Bonnet
+    </a>
     <div class="flex justify-between w-full">
       <nav class="">
         <ul class="flex flex-wrap">
