@@ -6,24 +6,6 @@
   "
   (click)="leaveFullscreen()"
 >
-  <mat-icon
-    *ngIf="isFullscreen"
-    inline
-    class="
-      absolute
-      right-8
-      top-8
-      md:right-12 md:top-12
-      text-2xl
-      md:text-5xl
-      flex
-      justify-center
-      items-center
-      cursor-pointer
-    "
-  >
-    close
-  </mat-icon>
   <div
     (click)="toggleScreen($event)"
     [class]="isFullscreen ? 'w-11/12' : 'w-full h-full'"
@@ -50,4 +32,22 @@
     </mat-icon>
     <ng-content class=""></ng-content>
   </div>
+  <mat-icon
+  *ngIf="isFullscreen"
+  inline
+  class="
+    absolute
+    right-8
+    top-8
+    md:right-12 md:top-12
+    text-2xl
+    md:text-5xl
+    flex
+    justify-center
+    items-center
+    cursor-pointer
+  "
+>
+  close
+</mat-icon>
 </div>
