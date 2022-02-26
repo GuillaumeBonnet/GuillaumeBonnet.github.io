@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --port 4201",
     "start:fr": "ng serve --port 4202 --configuration developmentFR",
-    "build": "npm run rmdir dist/static/en-US/ dist/static/fr-FR/  && ng build && npm run scully:en-US && npm run scully:fr-FR && cd dist/static/ && git add -A && git commit -a -m \"Build step: automatic commit\" && cp dist/static/fr-FR/index.html dist/static/",
+    "build": "npm run rmdir dist/static/en-US/ dist/static/fr-FR/  && ng build && npm run scully:en-US && npm run scully:fr-FR && cd dist/static/ && cp fr-FR/index.html . && git add -A && git commit -a -m \"Build step: automatic commit\"",
     "scully:en-US": "env LOCALE=en-US scully",
     "scully:fr-FR": "env LOCALE=fr-FR scully",
     "watch": "ng build --watch --configuration development",
