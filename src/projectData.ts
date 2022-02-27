@@ -27,7 +27,7 @@ const projects: { [key: string]: Project } = {
     title: $localize`:@@title_personal-site:This personal site`,
     description: $localize`:@@description_personal-site:A responsive site that showcases various hobby projects`,
     techIcons: ['angular', 'typescript', 'tailwind'],
-    githubUrl: 'https://github.com/GuillaumeBonnet', //TODO
+    githubUrl: 'https://github.com/GuillaumeBonnet/GuillaumeBonnet.github.io',
     urlFragment: '/github/personal-site',
   },
   'workspace-preference': {
