@@ -1,6 +1,7 @@
 {
   "name": "personal-site",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4201",
@@ -52,6 +53,8 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "tailwindcss": "^2.2.19",
-    "typescript": "~4.4.3"
+    "typescript": "~4.4.3",
+    "execa": "^6.1.0",
+    "ts-node": "^10.5.0"
   }
 }
