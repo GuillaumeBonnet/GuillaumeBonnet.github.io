@@ -254,7 +254,13 @@
 
 
 
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">96</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">34</context></context-group></trans-unit>
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">96</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">34</context></context-group></trans-unit><trans-unit id="title-front-end-app" datatype="html">
+        <source>The app's front-end:</source><target state="new">L'interface graphique de l'app:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="title-front-end" datatype="html">
         <source>The plugin's front-end:</source>
         <target>L'interface graphique de l'extension</target>
@@ -263,7 +269,7 @@
 
 
 
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">99</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">75</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">37</context></context-group></trans-unit>
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">75</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">37</context></context-group></trans-unit>
       <trans-unit id="title-back-end" datatype="html">
         <source>The server back-end:</source>
         <target>Le serveur en back-end:</target>
