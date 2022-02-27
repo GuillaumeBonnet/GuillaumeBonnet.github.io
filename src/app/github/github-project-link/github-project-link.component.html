@@ -1,6 +1,6 @@
 <div class="flex justify-center my-4">
-  <a class="link" [href]="url" target="_blank" i18n="@@github-project:link">
-    Github repository
-    <fa-icon class="ml-2 text-xl" [icon]="faGithub"></fa-icon>
+  <a class="link" [href]="url" target="_blank">
+    {{ displayedText }}
+    <fa-icon *ngIf="showIcon" class="ml-2 text-xl" [icon]="faGithub"></fa-icon>
   </a>
 </div>

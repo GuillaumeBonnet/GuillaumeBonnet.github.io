@@ -141,6 +141,16 @@
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
+      </trans-unit><trans-unit id="github-repository-backend" datatype="html">
+        <source>Github repository (back-end)</source><target state="new">Repository Github (back-end)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:cold-start" datatype="html">
         <source> The real site has a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>cold start<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> because it is hosted on a free plan on heroku. It sleeps when there is no web traffic in a 30-minute period. </source>
@@ -152,45 +162,30 @@
           parce qu'il est hébergé sur une option gratuite d'heroku. Il se met en veille quand il n'y a pas de trafic web pendant 30 minutes.
         </target>
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">24</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:demonstration-giff" datatype="html">
         <source> Demonstration giff </source>
         <target> Giff de démonstration </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">36</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">41</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:real-site-label" datatype="html">
         <source> Real site in production </source>
         <target> Vrai site en production </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">52</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">57</context></context-group></trans-unit>
       <trans-unit id="features" datatype="html">
         <source>Features</source>
         <target>Fonctionnalités</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">53</context>
-        </context-group>
-      </trans-unit>
+
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">58</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:description-auth" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Secure authentication<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> where passwords are saved hashed. </source>
         <target>
@@ -201,11 +196,8 @@
         </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">71</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">76</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:description-email" datatype="html">
         <source> Email verification and password reset through <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>email messages<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/></source>
         <target>
@@ -216,11 +208,8 @@
         </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">73</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">78</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:description-content" datatype="html">
         <source> Collection of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>freezers<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> which each contain their own collections of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>aliments<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>. </source>
         <target>
@@ -235,21 +224,15 @@
         </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">77</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">82</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:description-crud" datatype="html">
         <source> Create, remove or edit any freezers or aliments. </source>
         <target>Création, suppression ou édition de n'importe quels réfrigérateurs ou aliments.</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">86</context></context-group></trans-unit>
       <trans-unit id="freezer-practice:description-icons" datatype="html">
         <source> Integration of custom svg <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>icons<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>. </source>
         <target>
@@ -261,61 +244,34 @@
         </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">84</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">89</context></context-group></trans-unit>
       <trans-unit id="technology" datatype="html">
         <source>Technology</source>
         <target>Technologie</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">91</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">34</context>
-        </context-group>
-      </trans-unit>
+
+
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">96</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">34</context></context-group></trans-unit>
       <trans-unit id="title-front-end" datatype="html">
         <source>The plugin's front-end:</source>
         <target>L'interface graphique de l'extension</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">94</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">70</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
-          <context context-type="linenumber">37</context>
-        </context-group>
-      </trans-unit>
+
+
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">99</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">75</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">37</context></context-group></trans-unit>
       <trans-unit id="title-back-end" datatype="html">
         <source>The server back-end:</source>
         <target>Le serveur en back-end:</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
-          <context context-type="linenumber">105</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">81</context>
-        </context-group>
-      </trans-unit>
+
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">110</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">86</context></context-group></trans-unit>
       <trans-unit id="typing-language" datatype="html">
         <source>(typing language)</source>
         <target>(langage de typage)</target>
@@ -418,19 +374,10 @@
           <context context-type="linenumber">70</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="github-project:link" datatype="html">
-        <source> Github repository <x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon class=&quot;ml-2 text-xl&quot; [icon]=&quot;faGithub&quot;>"/><x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon>"/></source>
-        <target>
-          repository Github
-          <x id="START_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;fa-icon class=&quot;ml-2 text-xl&quot; [icon]=&quot;faGithub&quot;>"/>
-          <x id="CLOSE_TAG_FA_ICON" ctype="x-fa_icon" equiv-text="&lt;/fa-icon>"/>
-        </target>
-
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/github-project-link/github-project-link.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-      </trans-unit>
+      <trans-unit id="github-repository" datatype="html">
+        <source>Github repository</source>
+        <target>Repository Github</target>
+        <context-group purpose="location"><context context-type="sourcefile">src/app/github/github-project-link/github-project-link.component.ts</context><context context-type="linenumber">15</context></context-group></trans-unit>
       <trans-unit id="see-more-project" datatype="html">
         <source>See other projects</source>
         <target>Voir les autres projets</target>
@@ -444,15 +391,9 @@
         <target>logo de Meta Movie</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">7</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">27</context>
-        </context-group>
-      </trans-unit>
+
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">7</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">32</context></context-group></trans-unit>
       <trans-unit id="meta-movie:description" datatype="html">
         <source> A browser <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>"/>plugin for Chrome<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> that gives you <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>facts<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> on the form of text bubbles in <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>Netflix<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> videos </source>
         <target>
@@ -478,40 +419,28 @@
       <trans-unit id="title_published-chrome-store" datatype="html">
         <source> Published on Chrome store </source>
         <target state="new"> Publiée sur le Chrome store </target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">37</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">42</context></context-group></trans-unit>
       <trans-unit id="try-it" datatype="html">
         <source>Try it</source>
         <target state="new">Essayez l'extension</target>
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">53</context></context-group></trans-unit>
       <trans-unit id="meta-movie:select-deck" datatype="html">
         <source> On a movie/episode page you can select one of the available decks of fact cards. </source>
         <target> Sur une page de film/série vous pouvez sélectionner l'un des paquets de cartes-infos disponibles. </target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">56</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">61</context></context-group></trans-unit>
       <trans-unit id="meta-movie:create-deck" datatype="html">
         <source> To create a deck you need to log in. The passwords are hashed in database and the communications are done over Secure Https. </source>
         <target> Pour créer un paquets vous devez vous connecter. Les mots de passes sont hachés en base de donnée et les communications sont encryptées sous Https.</target>
 
 
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
-          <context context-type="linenumber">60</context>
-        </context-group>
-      </trans-unit>
+
+      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">65</context></context-group></trans-unit>
       <trans-unit id="css-framework" datatype="html">
         <source>(css framework)</source>
         <target>(framework css)</target>

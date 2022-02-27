@@ -11,8 +11,16 @@ export class GithubProjectLinkComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.displayedText = this.text || $localize`:@@github-repository:Github repository`;
+  }
 
   @Input()
   url!: string;
+  @Input()
+  text = '';
+  @Input()
+  showIcon = true;
+
+  displayedText = '';
 }
