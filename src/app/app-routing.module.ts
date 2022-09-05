@@ -8,6 +8,7 @@ import { MetaMovieComponent } from './github/meta-movie/meta-movie.component';
 import { FreezerPracticeComponent } from './github/freezer-practice/freezer-practice.component';
 import { PersonalSiteComponent } from './github/personal-site/personal-site.component';
 import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
+import { ArticlesComponent } from './articles/articles.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,7 @@ const routes: Routes = [
   { path: 'github/home', component: GithubComponent },
   { path: 'about', component: AboutComponent },
   { path: 'linked-in', component: LinkedInComponent },
+  { path: 'articles/lwc-typing', component: ArticlesComponent },
   { path: '**', component: AboutComponent },
 ];
 

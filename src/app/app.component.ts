@@ -23,7 +23,6 @@ export class AppComponent {
   @ViewChild('drawer')
   drawer!: MatDrawer;
 
-
   constructor(
     router: Router,
     media: MediaMatcher,
@@ -57,6 +56,10 @@ export class AppComponent {
     {
       url: '/github/home',
       text: $localize`:@@nav-link-github:Github / Port Folio`,
+    },
+    {
+      url: '/articles/lwc-typing',
+      text: $localize`:@@nav-link-articles:Articles`,
     },
   ];
 }

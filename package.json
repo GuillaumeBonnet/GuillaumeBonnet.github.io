@@ -33,6 +33,7 @@
     "@scullyio/ng-lib": "^2.1.14",
     "@scullyio/scully": "^2.1.14",
     "@scullyio/scully-plugin-puppeteer": "^2.1.14",
+    "highlight.js": "^11.6.0",
     "prettier": "^2.4.1",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",

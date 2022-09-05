@@ -1,0 +1,13 @@
+.article-text {
+  @apply md:text-justify;
+}
+.article-title {
+  @apply mt-8 mb-4 flex items-center text-3xl text-center;
+}
+.article-subtitle {
+  @apply mt-8 mb-4 flex items-center text-xl text-center;
+}
+
+* {
+  @apply font-serif;
+}

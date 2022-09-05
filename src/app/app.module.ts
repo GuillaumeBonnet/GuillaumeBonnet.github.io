@@ -63,6 +63,8 @@ import { PersonalSiteComponent } from './github/personal-site/personal-site.comp
 import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
 import { LanguagePickerComponent } from './language-picker/language-picker.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { ArticlesComponent } from './articles/articles.component';
+import { CodeSnippetComponent } from './articles/code-snippet/code-snippet.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -78,6 +80,8 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
     PersonalSiteComponent,
     WorkspacePreferenceComponent,
     LanguagePickerComponent,
+    ArticlesComponent,
+    CodeSnippetComponent,
   ],
   imports: [
     BrowserModule,

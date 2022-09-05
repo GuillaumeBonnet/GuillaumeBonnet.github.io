@@ -1,0 +1,329 @@
+<mat-card
+  class="
+    flex flex-col
+    justify-center
+    items-center
+    sm:mt-16
+    border
+    sm:border-2
+    border-black
+    py-12
+    px-8
+    xl:px-12
+  "
+>
+  <mat-card-title class="flex text-center text-3xl mt-4">
+    Types with LWC components (Salesforce)
+  </mat-card-title>
+  <mat-card-subtitle class="flex items-center text-xl text-center mt-4">
+    How to improve your development experience and code reliability
+  </mat-card-subtitle>
+
+  <div class="text-sm flex flex-wrap justify-between w-full">
+    <div class="">
+      {{ publicationDate }}
+    </div>
+    <div class="">last updated: {{ lastEditionDate }}</div>
+  </div>
+  <p class="article-text mt-8">
+    Using types with Salesforce's Lightning Web Components (LWC) is a good way
+    to
+    <strong
+      >improve developer experience, productivity and code reliability</strong
+    >.
+  </p>
+  <p class="article-text">
+    There are different ways to use types such as JSDoc, TypeScript, TypeScript
+    with checks and TypeScript in strict mode, listed from the least
+    constraining to the most constraining. The more constraining ways offer more
+    safety regarding bug checking but seemingly demand more work.
+  </p>
+
+  <p class="article-text">
+    Typing demand more work when you write new code, but in the long run, every
+    time you update code, you can rely on typing and the editor to warn you
+    about errors and needed modifications. It means you don't have to provide
+    the mental energy and time needed to check everywhere a variable is used to
+    be sure the changes are non-breaking.
+  </p>
+
+  <p class="article-text">
+    You can find a fork of the LWC recipe with the modifications discussed in
+    the article here:
+    <a
+      href="https://github.com/trailheadapps/lwc-recipes/compare/main...GuillaumeBonnet:lwc-recipes:typing-todo-list"
+      class="link"
+      target="_blank"
+    >
+      Example Repository
+    </a>
+  </p>
+
+  <h3 class="article-title">Weak auto-completion by default</h3>
+  <p class="article-text">
+    When you write JavaScript, your code editor is able to provide some sort of
+    auto-completion based on the code you previously wrote. It does not work
+    very well with plain JavaScript and we will see how to improve that by
+    modifying the
+    <a
+      href="https://github.com/trailheadapps/lwc-recipes/blob/main/force-app/main/default/lwc/todoList/todoList.js"
+      class="link"
+      target="_blank"
+    >
+      todoList.js
+    </a>
+  </p>
+  <div class="mt-4 mx-auto w-10/12 rounded">
+    <app-fullscreen-container>
+      <img
+        class="w-full"
+        src="assets/lwc-typing-article/var-hover-any.png"
+        alt="Hovering an untyped variable"
+      />
+    </app-fullscreen-container>
+  </div>
+  <p class="article-text">
+    file from Salesforce's LWC recipes repository. We are using Visual Studio
+    Code as our code editor, but other IDE also have similar features. If you
+    hover over the <span class="hljs-name">_todos</span> variable in the file,
+    the IDE will tell you that it just knows the variable is an array of type
+    "any" which can be anything. When you use this variable as shown in the next
+    GIF the editor doesn't tell you what property the element of the array has.
+    You have to do the effort to look around how the array is initialized or
+    passed down to the todoList component in order to know that the elements
+    have for properties <span class="hljs-name">priority</span>,
+    <span class="hljs-name">description</span> and
+    <span class="hljs-name">id</span>.
+  </p>
+  <div class="mt-4 mx-auto w-10/12 rounded">
+    <app-fullscreen-container>
+      <img
+        class="w-full"
+        src="assets/lwc-typing-article/failed-auto-completion.gif"
+        alt="Failed auto-completion"
+      />
+    </app-fullscreen-container>
+  </div>
+
+  <h3 class="article-title">JSDoc</h3>
+  <p class="article-text">
+    <a
+      href="https://jsdoc.app/about-getting-started.html"
+      class="link"
+      target="_blank"
+    >
+      JSDoc
+    </a>
+    tags are comments with a specific format that you add to your code and are
+    parsed by tools to build documentation. For us, JSDoc are tags that are
+    understood and used by the editor to assist us.
+    <br />
+    We add a tag to define the type TodoJsDoc and a tag to apply this type to
+    the <span class="hljs-name">_todos</span> variable.
+  </p>
+  <app-code-snippet
+    language="javascript"
+    code="
+/**
+  * @typedef {Object} TodoJsDoc
+  * @property {number} id
+  * @property {string} description
+  * @property {boolean} priority
+  */
+
+/** @type {TodoJsDoc[]} */
+_todos = null;
+    "
+  ></app-code-snippet>
+  <p class="article-text">
+    The auto-completion is now possible as shown in the following GIF.
+  </p>
+
+  <app-fullscreen-container>
+    <img
+      class="w-full"
+      src="assets/lwc-typing-article/JSDoc-auto-completion.gif"
+      alt="JSDoc auto-completion"
+    />
+  </app-fullscreen-container>
+
+  <p class="article-text">
+    Once you defined a type in a file you can reuse it in other files. In our
+    example we would reuse the type wherever the TodoList component is used to
+    know quickly the shape of the data that has to be passed down with the todos
+    attribute.
+  </p>
+
+  <p class="article-text">
+    The typing helps to <strong>write new code faster</strong> when it's related
+    to the todoList because auto-completion helps, especially if you are coming
+    back to code that you are not familiar with anymore.
+  </p>
+  <p class="article-text">
+    JSDoc types can match the needs of your project, but the tag syntax can be
+    complicated to write. If you go down that road you might want to find a good
+    JSDoc extension to help you. In the next part we'll define types with
+    Typescript, which is less verbose than JSDoc types.
+  </p>
+
+  <h3 class="article-title">TypeScript and JSDoc</h3>
+  <p class="article-text">
+    TypeScript (TS) is a popular language that is like a stricter, structured
+    and typed JavaScript. Projects that use this language have source files
+    written in TypeScript and a build step to transpile the code into
+    JavaScript. This build step doesn't fit Salesforce projects, but we can
+    still
+    <strong
+      >use the power of TypeScript files, without changing our whole project
+      structure</strong
+    >, by defining types in TypeScript files and referencing those types in
+    JSDoc tags.
+  </p>
+  <p class="article-text">
+    To do that let's create the file todo.ts in its folder
+    lwc-recipes\force-app\main\default\lwc\todoList\.
+  </p>
+  <app-fullscreen-container>
+    <img
+      class="w-full"
+      src="assets/lwc-typing-article/todoListFolderWithTS.png"
+      alt="folder with TypeScript File"
+    />
+  </app-fullscreen-container>
+  <p class="article-text">The content defines the type with the TS syntax:</p>
+  <app-code-snippet
+    language="typescript"
+    code="
+      type TodoTypescript = {
+        id: number;
+        description: string;
+        priority: boolean;
+        // TS syntax => variableOrPropertyName: Type;
+      };
+    "
+  ></app-code-snippet>
+  <p class="article-text">Let's update the JSDoc tags to use this type:</p>
+  <app-fullscreen-container>
+    <img
+      class="w-full"
+      src="assets/lwc-typing-article/TSDoc-auto-completion.gif"
+      alt="TSDoc auto-completion"
+    />
+  </app-fullscreen-container>
+  <p class="article-text">
+    We have the same functionality with types defined with JSDoc, but I prefer
+    the TypeScript method because it's
+    <strong> easier and shorter to write</strong>.
+  </p>
+  <h3 class="article-title">TypeScript check</h3>
+  <p class="article-text">
+    Whether you define types with TS or JSDoc you can configure your file so
+    that the editor is stricter and checks for more errors. To do so, add the
+    comment
+    <app-code-snippet
+      language="javascript"
+      [inline]="true"
+      code="
+    //@ts-check
+    "
+    ></app-code-snippet>
+    at the beginning of your js files.
+  </p>
+  <p class="article-text">
+    The following GIF shows that adding this comment checks for many errors such
+    as a spelling error on a property.
+    <strong
+      >The error caught can now be fixed instead of going through and creating a
+      bug at run time in production</strong
+    >.
+  </p>
+  <app-fullscreen-container>
+    <img
+      class="w-full"
+      src="assets/lwc-typing-article/TS-check.gif"
+      alt="ts-check in editor"
+    />
+  </app-fullscreen-container>
+  <p class="article-text">
+    As you can see the downside is that it also triggers false positive errors
+    for getters, setters and some imports. But I believe the safety you get from
+    ts-check outweighs the drawbacks.
+  </p>
+
+  <h3 class="article-title">Side notes</h3>
+  <h4 class="article-subtitle">deployment configuration</h4>
+  <p class="article-text">
+    If there are deployment problems with the TypeScript files you need to
+    exclude them from the deployment steps. With the sfdx plugin you can
+    configure the .forceignore file to do so.
+  </p>
+  <h4 class="article-subtitle">sfdx plugin uses TypeScript internally</h4>
+  <p class="article-text">
+    In the .sfdx folder in your project you can find *.d.ts files which are
+    TypeScript definition files generated by the sfdx plugin so that the editor
+    has information about the standard LWC functions and modules imported in LWC
+    files. It is also used for the Apex auto-completion. The sfdx command "SFDX:
+    Refresh Sobject Definition" actually updates .d.ts files that mirror the
+    fields and objects that are in the Salesforce org the IDE is currently
+    plugged to.
+  </p>
+  <h4 class="article-subtitle">jsconfig.json</h4>
+  <p class="article-text">
+    In each LWC folders you can find one jsconfig.json file that is generated by
+    the sfdx plugin. In theory, we can add the property
+    <span class="hljs-name">"target": "ES2015"</span> to this json so that our
+    editor doesn't trigger errors for every getter and setter. The JavaScript
+    version ES2015 does have the feature "getter & setter". This fix is not very
+    practical because sfdx regularly override the jsconfig.json files. That's
+    why bypassing those false positive errors with
+    <app-code-snippet
+      language="javascript"
+      [inline]="true"
+      code="
+    //@ts-ignore
+    "
+    ></app-code-snippet>
+    comments might be the solution picked.
+  </p>
+  <h4 class="article-subtitle">template auto-completion</h4>
+  <p class="article-text">
+    As of now Salesforce doesn't provide auto-completion for the HTML templates
+    in the LWC components. Other famous JavaScript frameworks have this feature
+    and it works very well thanks to types.
+  </p>
+  <h3 class="article-title">Closing words</h3>
+  <p class="article-text">
+    Typing LWC components with a TypeScript file and the ts-check verification
+    is a
+    <strong
+      >quick an easy way to improve developer experience and code
+      quality</strong
+    >. It is <strong>noncommittal</strong> and has the advantage to be used on a
+    per-file basis for tryouts.
+  </p>
+
+  <p class="article-text">
+    If you want to read more about this subject with a different perspective,
+    <a href="https://twitter.com/adityanaag" class="link" target="_blank">
+      Aditya Naag
+    </a>
+    wrote 2 articles about lwc typing which go more in details on this matter:
+    <a
+      href="https://developer.salesforce.com/blogs/2022/04/how-to-use-typescript-with-salesforce-part-1"
+      class="link"
+      target="_blank"
+    >
+      article 1
+    </a>
+    and
+    <a
+      href="https://developer.salesforce.com/blogs/2022/04/how-to-use-typescript-with-salesforce-part-2"
+      class="link"
+      target="_blank"
+    >
+      article 2
+    </a>
+    .
+  </p>
+  <mat-divider inset class="mt-8"></mat-divider>
+</mat-card>

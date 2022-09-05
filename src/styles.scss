@@ -3,6 +3,7 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+@import "highlight.js/styles/vs2015.css";
 @css {
   @layer components {
     .link {

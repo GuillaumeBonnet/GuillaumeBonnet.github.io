@@ -12,79 +12,143 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about:content" datatype="html">
-        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/>I am a developer based in Lyon(France).<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/> I've been working for the past 5 years as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>full stack developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-      >"/> on many projects with the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+        <source>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
+          I am a developer based in Lyon(France).
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
+          I've been working for the past 5 years as a
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
+          full stack developer
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+      >" />
+          on many projects with the
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
         href=&quot;https://www.salesforce.com/fr/products/what-is-salesforce/&quot;
         class=&quot;link&quot;
         target=&quot;_blank&quot;
-        >"/>Salesforce platform<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/> This site showcases <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;>"/><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>hobby projects<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-      >"/><x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> I did in various back-end and front-end technologies. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/> I am open for <x id="START_LINK_2" equiv-text="&lt;a class=&quot;link&quot; routerLink=&quot;/linked-in&quot; routerLinkActive=&quot;active&quot;>"/>job<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/> opportunities as a <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold whitespace-nowrap&quot;
-        >"/><x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;>"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>TypeScript developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-      >"/> with <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>"/><x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;>"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>Angular<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>, <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>"/><x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;>"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>Vue.js<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/> or <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>"/><x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;>"/><x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>Node.js.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/><x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/></source>
+        >" />
+          Salesforce platform
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
+          .
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
+          This site showcases
+          <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
+          hobby projects
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+      >" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
+          I did in various back-end and front-end technologies.
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
+          I am open for
+          <x id="START_LINK_2" equiv-text="&lt;a class=&quot;link&quot; routerLink=&quot;/linked-in&quot; routerLinkActive=&quot;active&quot;>" />
+          job
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
+          opportunities as a
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold whitespace-nowrap&quot;
+        >" />
+          <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          TypeScript developer
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+      >" />
+          with
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>" />
+          <x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          Angular
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>" />
+          ,
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>" />
+          <x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          Vue.js
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>" />
+          or
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>" />
+          <x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          Node.js.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>" />
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+        </source>
         <target>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/>
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           Je suis un développeur basé sur Lyon.
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/>
-          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>"/>
-          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/>
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           Je travaille depuis 5 ans en tant que
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           développeur full stack
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-        >"/>
+        >" />
           sur différents projets avec la
-        <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
+          <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
           href=&quot;https://www.salesforce.com/fr/products/what-is-salesforce/&quot;
           class=&quot;link&quot;
           target=&quot;_blank&quot;
-          >"/>
+          >" />
           plateforme Salesforce
-          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
           .
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/>
-          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>"/>
-          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/>
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           Ce site présente mes
-          <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;>"/>
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>
+          <x id="START_LINK_1" equiv-text="&lt;a routerLink=&quot;/github/home&quot; routerLinkActive=&quot;active&quot;>" />
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           projets passe-temps
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-        >"/>
-          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+        >" />
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
           faits avec différentes technologies back-end et front-end.
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/>
-          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>"/>
-          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>"/>
-          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>"/>
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
+          <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
+          <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
+          <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
           Je suis ouvert à des opportunités de
-          <x id="START_LINK_2" equiv-text="&lt;a class=&quot;link&quot; routerLink=&quot;/linked-in&quot; routerLinkActive=&quot;active&quot;>"/>
+          <x id="START_LINK_2" equiv-text="&lt;a class=&quot;link&quot; routerLink=&quot;/linked-in&quot; routerLinkActive=&quot;active&quot;>" />
           travail
-          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>"/>
+          <x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a>" />
           en tant que
           <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold whitespace-nowrap&quot;
-          >"/>
+          >" />
           développeur
-          <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;>"/>
-          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>TypeScript
+          <x id="START_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;app-tech-icon name=&quot;typescript&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          TypeScript
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
-        >"/>
+        >" />
           avec
-        <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>"/>
-          <x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;>"/>
-          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>Angular
-          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>"/>
-          <x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;>"/>
-          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>Vue.js
-          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>" />
+          <x id="START_TAG_APP_TECH_ICON_1" ctype="x-app_tech_icon_1" equiv-text="&lt;app-tech-icon name=&quot;angular&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          Angular
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>" />
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>" />
+          <x id="START_TAG_APP_TECH_ICON_2" ctype="x-app_tech_icon_2" equiv-text="&lt;app-tech-icon name=&quot;vue&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          Vue.js
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>" />
           ou
-          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>"/>
-          <x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;>"/>
-          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>"/>Node.js.
-          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>"/>
-          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>"/>
+          <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;whitespace-nowrap&quot;>" />
+          <x id="START_TAG_APP_TECH_ICON_3" ctype="x-app_tech_icon_3" equiv-text="&lt;app-tech-icon name=&quot;nodejs&quot; class=&quot;inline-block&quot;>" />
+          <x id="CLOSE_TAG_APP_TECH_ICON" ctype="x-app_tech_icon" equiv-text="&lt;/app-tech-icon>" />
+          Node.js.
+          <x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span>" />
+          <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p>" />
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/about/about.component.html</context>
@@ -106,17 +170,23 @@
 
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="nav-link-github" datatype="html">
         <source>Github / Port Folio</source>
         <target>Github / Portfolio</target>
-
-
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.ts</context>
-          <context context-type="linenumber">59</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="nav-link-articles" datatype="html">
+        <source>Articles</source>
+        <source>Articles</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.ts</context>
+          <context context-type="linenumber">62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice" datatype="html">
@@ -129,20 +199,28 @@
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:freezer-practice-description" datatype="html">
-        <source> A <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>website<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> for mobile only that displays freezer and aliments </source>
+        <source>
+          A
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
+          website
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          for mobile only that displays freezer and aliments
+        </source>
         <target>
           Un
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           site web
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           pour les smartphones uniquement qui affiche des réfrigérateurs et leurs aliments.
         </target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">11</context>
         </context-group>
-      </trans-unit><trans-unit id="github-repository-backend" datatype="html">
-        <source>Github repository (back-end)</source><target state="new">Repository Github (back-end)</target>
+      </trans-unit>
+      <trans-unit id="github-repository-backend" datatype="html">
+        <source>Github repository (back-end)</source>
+        <target state="new">Repository Github (back-end)</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">21</context>
@@ -153,109 +231,183 @@
         </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:cold-start" datatype="html">
-        <source> The real site has a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>cold start<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> because it is hosted on a free plan on heroku. It sleeps when there is no web traffic in a 30-minute period. </source>
+        <source>
+          The real site has a
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          cold start
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          because it is hosted on a free plan on heroku. It sleeps when there is no web traffic in a 30-minute period.
+        </source>
         <target>
           Le vrai site a un
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           démarrage lent
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           parce qu'il est hébergé sur une option gratuite d'heroku. Il se met en veille quand il n'y a pas de trafic web pendant 30 minutes.
         </target>
 
 
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">24</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:demonstration-giff" datatype="html">
         <source> Demonstration giff </source>
         <target> Giff de démonstration </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">41</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:real-site-label" datatype="html">
         <source> Real site in production </source>
         <target> Vrai site en production </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">57</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="features" datatype="html">
         <source>Features</source>
         <target>Fonctionnalités</target>
 
 
-
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">58</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:description-auth" datatype="html">
-        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>Secure authentication<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> where passwords are saved hashed. </source>
+        <source>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          Secure authentication
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          where passwords are saved hashed.
+        </source>
         <target>
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           Authentification sûre
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           où les mots de passes sont sauvegardés hachés.
         </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">76</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:description-email" datatype="html">
-        <source> Email verification and password reset through <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>email messages<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/></source>
+        <source>
+          Email verification and password reset through
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          email messages
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+        </source>
         <target>
           Vérification d'email et changement de mot de passe fait avec des
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           messages emails
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
         </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">78</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:description-content" datatype="html">
-        <source> Collection of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>freezers<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> which each contain their own collections of <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>aliments<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>. </source>
+        <source>
+          Collection of
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          freezers
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          which each contain their own collections of
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          aliments
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          .
+        </source>
         <target>
           Liste de
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           réfrigérateurs
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           avec chacun leur liste d'
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           aliments.
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
         </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">82</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:description-crud" datatype="html">
         <source> Create, remove or edit any freezers or aliments. </source>
         <target>Création, suppression ou édition de n'importe quels réfrigérateurs ou aliments.</target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">86</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="freezer-practice:description-icons" datatype="html">
-        <source> Integration of custom svg <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>icons<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>. </source>
+        <source>
+          Integration of custom svg
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          icons
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          .
+        </source>
         <target>
           Intégration d'
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           icônes
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           svg spéciaux.
         </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">89</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="technology" datatype="html">
         <source>Technology</source>
         <target>Technologie</target>
 
 
-
-
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">96</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">72</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">34</context></context-group></trans-unit><trans-unit id="title-front-end-app" datatype="html">
-        <source>The app's front-end:</source><target state="new">L'interface graphique de l'app:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="title-front-end-app" datatype="html">
+        <source>The app's front-end:</source>
+        <target state="new">L'interface graphique de l'app:</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
           <context context-type="linenumber">99</context>
@@ -266,18 +418,29 @@
         <target>L'interface graphique de l'extension</target>
 
 
-
-
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">75</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context><context context-type="linenumber">37</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="title-back-end" datatype="html">
         <source>The server back-end:</source>
         <target>Le serveur en back-end:</target>
 
 
-
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context><context context-type="linenumber">110</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">86</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/freezer-practice/freezer-practice.component.html</context>
+          <context context-type="linenumber">110</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="typing-language" datatype="html">
         <source>(typing language)</source>
         <target>(langage de typage)</target>
@@ -383,7 +546,11 @@
       <trans-unit id="github-repository" datatype="html">
         <source>Github repository</source>
         <target>Repository Github</target>
-        <context-group purpose="location"><context context-type="sourcefile">src/app/github/github-project-link/github-project-link.component.ts</context><context context-type="linenumber">15</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/github-project-link/github-project-link.component.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="see-more-project" datatype="html">
         <source>See other projects</source>
         <target>Voir les autres projets</target>
@@ -397,24 +564,44 @@
         <target>logo de Meta Movie</target>
 
 
-
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">7</context></context-group><context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">32</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="meta-movie:description" datatype="html">
-        <source> A browser <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>"/>plugin for Chrome<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> that gives you <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>facts<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> on the form of text bubbles in <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>Netflix<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> videos </source>
+        <source>
+          A browser
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>" />
+          plugin for Chrome
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          that gives you
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
+          facts
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          on the form of text bubbles in
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
+          Netflix
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          videos
+        </source>
         <target>
           Une
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-&quot;>" />
           extension de navigateur pour Chrome
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           qui affiche des
-          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           anecdotes et commentaires
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           avec des bulles de texte dans des vidéos
-          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>
+          <x id="START_TAG_STRONG_1" ctype="x-strong_1" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           Netflix
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
         </target>
 
         <context-group purpose="location">
@@ -426,27 +613,41 @@
         <source> Published on Chrome store </source>
         <target state="new"> Publiée sur le Chrome store </target>
 
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">42</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="try-it" datatype="html">
         <source>Try it</source>
         <target state="new">Essayez l'extension</target>
 
 
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">53</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="meta-movie:select-deck" datatype="html">
         <source> On a movie/episode page you can select one of the available decks of fact cards. </source>
         <target> Sur une page de film/série vous pouvez sélectionner l'un des paquets de cartes-infos disponibles. </target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">61</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="meta-movie:create-deck" datatype="html">
         <source> To create a deck you need to log in. The passwords are hashed in database and the communications are done over Secure Https. </source>
         <target> Pour créer un paquets vous devez vous connecter. Les mots de passes sont hachés en base de donnée et les communications sont encryptées sous Https.</target>
 
 
-
-      <context-group purpose="location"><context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context><context context-type="linenumber">65</context></context-group></trans-unit>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="css-framework" datatype="html">
         <source>(css framework)</source>
         <target>(framework css)</target>
@@ -489,12 +690,18 @@
         </context-group>
       </trans-unit>
       <trans-unit id="personal-site:description" datatype="html">
-        <source> A static <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>Responsive website<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> (mobile and desktop) hosted on github. </source>
+        <source>
+          A static
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
+          Responsive website
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          (mobile and desktop) hosted on github.
+        </source>
         <target>
           Un
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           site web réactif
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           (mobiles et ordinateurs) et static hébergé sur github.
         </target>
 
@@ -534,20 +741,34 @@
         </context-group>
       </trans-unit>
       <trans-unit id="workspace-preference:description" datatype="html">
-        <source> Global configuration files such as git's<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>.gitconfig<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>, VSCode's <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>settings.json<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>, vscode <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>snippets<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/> json are synchronized through the use of symbolic links and a git repository. </source>
+        <source>
+          Global configuration files such as git's
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          .gitconfig
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          , VSCode's
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          settings.json
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          , vscode
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
+          snippets
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
+          json are synchronized through the use of symbolic links and a git repository.
+        </source>
         <target>
           Fichiers de configuration globaux comme git's
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           .gitconfig
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           , VSCode's
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           settings.json
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           , vscode
-          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>"/>
+          <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong>" />
           snippets
-          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>"/>
+          <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong>" />
           json sont synchronisés avec l'aide de liens symboliques et un repository git.
         </target>
 
@@ -576,14 +797,21 @@
         </context-group>
       </trans-unit>
       <trans-unit id="read-more-project" datatype="html">
-        <source> click to see a demo, the functional, and technical breakdown <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div>"/><x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon>"/>read_more<x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon>"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div>"/></source>
+        <source>
+          click to see a demo, the functional, and technical breakdown
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div>" />
+          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon>" />
+          read_more
+          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon>" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div>" />
+        </source>
         <target>
           cliquer pour voir une démo et les détails fonctionnels et techniques
-          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div>"/>
-          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon>"/>
+          <x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div>" />
+          <x id="START_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;mat-icon>" />
           read_more
-          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon>"/>
-          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div>"/>
+          <x id="CLOSE_TAG_MAT_ICON" ctype="x-mat_icon" equiv-text="&lt;/mat-icon>" />
+          <x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div>" />
         </target>
 
         <context-group purpose="location">

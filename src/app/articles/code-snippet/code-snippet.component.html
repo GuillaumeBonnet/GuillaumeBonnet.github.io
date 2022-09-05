@@ -1,0 +1,6 @@
+<pre *ngIf="!inline" class="rounded-md bg-gray-800 px-8 overflow-x-auto">
+  <code [innerHtml]="htmlContent"></code>
+</pre>
+<pre *ngIf="inline" class="inline-flex">
+  <code [innerHtml]="htmlContent" class="flex"></code>
+</pre>
