@@ -72,8 +72,15 @@
     >
       todoList.js
     </a>
+    file from Salesforce's LWC recipes repository. We are using Visual Studio
+    Code as our code editor, but other IDE also have similar features.
   </p>
-  <div class="mt-4 mx-auto w-10/12 rounded">
+  <p class="article-text">
+    If you hover over the <span class="hljs-name">_todos</span> variable in the
+    file, the IDE will tell you that it just knows the variable is an array of
+    type "any" which can be anything.
+  </p>
+  <div class="my-4 mx-auto w-10/12 rounded">
     <app-fullscreen-container>
       <img
         class="w-full"
@@ -83,15 +90,11 @@
     </app-fullscreen-container>
   </div>
   <p class="article-text">
-    file from Salesforce's LWC recipes repository. We are using Visual Studio
-    Code as our code editor, but other IDE also have similar features. If you
-    hover over the <span class="hljs-name">_todos</span> variable in the file,
-    the IDE will tell you that it just knows the variable is an array of type
-    "any" which can be anything. When you use this variable as shown in the next
-    GIF the editor doesn't tell you what property the element of the array has.
-    You have to do the effort to look around how the array is initialized or
-    passed down to the todoList component in order to know that the elements
-    have for properties <span class="hljs-name">priority</span>,
+    When you use this variable as shown in the next GIF the editor doesn't tell
+    you what property the element of the array has. You have to do the effort to
+    look around how the array is initialized or passed down to the todoList
+    component in order to know that the elements have for properties
+    <span class="hljs-name">priority</span>,
     <span class="hljs-name">description</span> and
     <span class="hljs-name">id</span>.
   </p>
