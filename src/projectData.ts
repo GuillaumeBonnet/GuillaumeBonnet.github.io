@@ -9,6 +9,13 @@ type Project = {
 };
 
 const projects: { [key: string]: Project } = {
+  'salesforce-data-copy': {
+    title: 'salesforce-data-copy',
+    description: $localize`:@@description_salesforce-data-copy:Desktop app that clones Salesforce data from one sandbox environment to another by crawling a data graph.`,
+    techIcons: ['electron', 'vue', 'quasar', 'typescript'],
+    githubUrl: 'https://github.com/GuillaumeBonnet/salesforce-data-copy',
+    urlFragment: '/github/salesforce-data-copy',
+  },
   'meta-movie': {
     title: 'MetaMovie',
     description: $localize`:@@description_meta-movie:A browser plugin for Chrome that gives you facts on the form of text bubbles in Netflix videos`,

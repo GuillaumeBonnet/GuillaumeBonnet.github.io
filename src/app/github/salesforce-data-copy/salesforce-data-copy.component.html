@@ -1,0 +1,68 @@
+<mat-card class="flex flex-col justify-center items-center">
+  <mat-card-title class="flex items-center text-3xl my-6">
+    Salesforce Data Copy
+  </mat-card-title>
+  <div class="sm:px-8">
+    <p class="italic text-center" i18n="@@salesforce-data-copy:description">
+      <strong class="font-extrabold">Desktop app</strong> that clones Salesforce
+      records and their related data from one sandbox to another.
+    </p>
+    <p class="italic text-center" i18n="@@salesforce-data-copy:sub-description">
+      The process is piloted by a Graphical User Interface displaying the data
+      graph in real time.
+    </p>
+
+    <app-github-project-link [url]="projects['salesforce-data-copy'].githubUrl">
+    </app-github-project-link>
+    <div class="mt-4 mx-auto w-10/12 rounded">
+      <app-fullscreen-container>
+        <video
+          controls
+          src="assets/videos/salesforce-data-copy-demo.mp4"
+          alt="video showcasing the app"
+        ></video>
+      </app-fullscreen-container>
+    </div>
+  </div>
+  <mat-divider inset class="mt-6"></mat-divider>
+  <mat-card-title class="mt-4 flex items-center" i18n="@@features"
+    >Details</mat-card-title
+  >
+  <ul class="sm:px-8 pl-4 sm:pl-10">
+    <li class="list-disc" i18n="@@salesforce-data-copy:Authentication">
+      Authentication is handled by Salesforce CLI and set up through vscode or
+      command lines.
+    </li>
+    <li class="list-disc mt-2" i18n="@@salesforce-data-copy:first-step">
+      In the First step you have to chose a query to pick your initials records
+      in the source org.
+    </li>
+    <li class="list-disc mt-2" i18n="@@salesforce-data-copy:extract-step">
+      In step "extract records" the app crawls the salesforce database of the
+      source org to build the data graph of all the records that are ancestors
+      of the initials records.
+    </li>
+    <li class="list-disc mt-2" i18n="@@salesforce-data-copy:upsert-step">
+      In step "upsert records" the data graph is upserted in the target org's
+      salesforce database in the correct order to satisfy dependencies between
+      records.
+    </li>
+  </ul>
+  <mat-divider inset class="mb-6 mt-4"></mat-divider>
+  <mat-card-title class="flex items-center" i18n="@@technology"
+    >Technology</mat-card-title
+  >
+  <div class="w-full sm:px-8">
+    <ul class="pl-8">
+      <li class="" *ngFor="let line of technoLines">
+        <app-tech-icon
+          [name]="line.iconName"
+          class="-ml-5 inline-block align-bottom relative bottom-1"
+        ></app-tech-icon>
+        {{ line.text }}
+        <span class="italic text-gray-200 ml-2">{{ line.secondaryText }}</span>
+      </li>
+    </ul>
+  </div>
+  <mat-divider inset class="mt-2"></mat-divider>
+</mat-card>

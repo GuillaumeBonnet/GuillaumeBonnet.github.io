@@ -229,6 +229,10 @@
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
           <context context-type="linenumber">24</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:cold-start" datatype="html">
         <source>
@@ -404,6 +408,10 @@
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="title-front-end-app" datatype="html">
         <source>The app's front-end:</source>
@@ -462,6 +470,10 @@
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
           <context context-type="linenumber">39</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="css-preprocessor" datatype="html">
         <source>(css preprocessor)</source>
@@ -475,6 +487,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
           <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="components" datatype="html">
@@ -733,11 +749,73 @@
       <trans-unit id="components-and-theme" datatype="html">
         <source>(components and custom theme)</source>
         <target>(composants et thème personnalisé)</target>
-
-
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
           <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:description" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;"/>Desktop app<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> that clones Salesforce records and their related data from one sandbox to another. </source>
+        <target><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;"/>Application de bureau<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> qui clone les enregistrements Salesforce et leurs données liés d'une sandbox vers une autre. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:sub-description" datatype="html">
+        <source> The process is piloted by a Graphical User Interface displaying the data graph in real time. </source>
+        <target>Le procédé est piloté par une interface graphique montrant le graph de données en temps réel</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:Authentication" datatype="html">
+        <source> Authentication is handled by Salesforce CLI and set up through vscode or command lines. </source>
+        <target> l'Authentification est gérée par le CLI Salesforce et configurée avec vscode ou par ligne de commandes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:first-step" datatype="html">
+        <source> In the First step you have to chose a query to pick your initials records in the source org. </source>
+        <target> Dans la première étape vous devez choisir une requête pour séléctionner vos enregistrements initiaux dans l'org source.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:extract-step" datatype="html">
+        <source> In step &quot;extract records&quot; the app crawls the Salesforce database of the source org to build the data graph of all the records that are ancestors of the initials records. </source>
+        <target> Dans l'étape &quot;extraction d'enregistrements&quot; l'application parcour la base de donnée Salesforce de l'org source pour construire le graph de donnée de tous les enregistrements ancêtres des enregistrements initiaux.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:upsert-step" datatype="html">
+        <source> In step &quot;upsert records&quot; the data graph is upserted in the target org&apos;s salesforce database in the correct order to satisfy dependencies between records. </source>
+        <target> Dans l'étape &quot;upsertion d'enregistrements&quot; le graph de données est upserté dans la base de donnée de l&apos;org Salesforce de destination et ce dans le bon ordre satisfaisant l'ordre de dépendances entres les enregistrements. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="application-framework" datatype="html">
+        <source>(application framework)</source>
+        <target>(framework d'application)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="component-framework" datatype="html">
+        <source>(component framework)</source>
+        <target>(framework de composants)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="workspace-preference:description" datatype="html">
@@ -843,6 +921,20 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
           <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="icon-electron" datatype="html">
+        <source>electron icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="icon-quasar" datatype="html">
+        <source>quasar icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
+          <context context-type="linenumber">25</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-angular" datatype="html">
@@ -963,6 +1055,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
           <context context-type="linenumber">103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description_salesforce-data-copy" datatype="html">
+        <source>Desktop app that clones Salesforce data from one sandbox environment to another by crawling a data graph.</source>
+        <target>Application de bureau qui clone les données Salesforce d'un environnement à un autre en parcourant un graph de données.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/projectData.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="description_meta-movie" datatype="html">

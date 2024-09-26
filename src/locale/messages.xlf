@@ -108,6 +108,10 @@
           <context context-type="sourcefile">src/app/github/meta-movie/meta-movie.component.html</context>
           <context context-type="linenumber">58</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="freezer-practice:description-auth" datatype="html">
         <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>Secure authentication<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> where passwords are saved hashed. </source>
@@ -158,6 +162,10 @@
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.html</context>
           <context context-type="linenumber">34</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="title-front-end-app" datatype="html">
         <source>The app&apos;s front-end:</source>
@@ -194,6 +202,10 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
           <context context-type="linenumber">39</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">33</context>
         </context-group>
       </trans-unit>
       <trans-unit id="css-preprocessor" datatype="html">
@@ -360,6 +372,10 @@
           <context context-type="sourcefile">src/app/github/personal-site/personal-site.component.ts</context>
           <context context-type="linenumber">44</context>
         </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
       </trans-unit>
       <trans-unit id="web-framework" datatype="html">
         <source>(web framework)</source>
@@ -410,6 +426,62 @@
           <context context-type="linenumber">54</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="salesforce-data-copy:description" datatype="html">
+        <source><x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;"/>Desktop app<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> that clones Salesforce records and their related data from one sandbox to another. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">7,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:sub-description" datatype="html">
+        <source> The process is piloted by a Graphical User Interface displaying the data graph in real time. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">10,13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:Authentication" datatype="html">
+        <source> Authentication is handled by Salesforce CLI and set up through vscode or command lines. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">32,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:first-step" datatype="html">
+        <source> In the First step you have to chose a query to pick your initials records in the source org. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">36,39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:extract-step" datatype="html">
+        <source> In step &quot;extract records&quot; the app crawls the salesforce database of the source org to build the data graph of all the records that are ancestors of the initials records. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">40,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="salesforce-data-copy:upsert-step" datatype="html">
+        <source> In step &quot;upsert records&quot; the data graph is upserted in the target org&apos;s salesforce database in the correct order to satisfy dependencies between records. </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.html</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="application-framework" datatype="html">
+        <source>(application framework)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="component-framework" datatype="html">
+        <source>(component framework)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/github/salesforce-data-copy/salesforce-data-copy.component.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="workspace-preference:description" datatype="html">
         <source> Global configuration files such as git&apos;s<x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>.gitconfig<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, VSCode&apos;s <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>settings.json<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/>, vscode <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong&gt;"/>snippets<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong&gt;"/> json are synchronized through the use of symbolic links and a git repository. </source>
         <context-group purpose="location">
@@ -438,158 +510,179 @@
           <context context-type="linenumber">13</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="icon-electron" datatype="html">
+        <source>electron icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="icon-quasar" datatype="html">
+        <source>quasar icon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="icon-angular" datatype="html">
         <source>angular icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">19</context>
+          <context context-type="linenumber">31</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-material" datatype="html">
         <source>Material Design icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">25</context>
+          <context context-type="linenumber">37</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-tailwindcss" datatype="html">
         <source>tailwindcss icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-java" datatype="html">
         <source>java icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">37</context>
+          <context context-type="linenumber">49</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-nodejs" datatype="html">
         <source>nodejs icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">43</context>
+          <context context-type="linenumber">55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-HEROKU" datatype="html">
         <source>HEROKU icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">49</context>
+          <context context-type="linenumber">61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-expressjs" datatype="html">
         <source>expressjs icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">55</context>
+          <context context-type="linenumber">67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-typescript" datatype="html">
         <source>typescript icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">61</context>
+          <context context-type="linenumber">73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-Prisma" datatype="html">
         <source>Prisma icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">67</context>
+          <context context-type="linenumber">79</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-PostgreSQL" datatype="html">
         <source>PostgreSQL icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">73</context>
+          <context context-type="linenumber">85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-spring" datatype="html">
         <source>spring icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">79</context>
+          <context context-type="linenumber">91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-sass" datatype="html">
         <source>sass icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">85</context>
+          <context context-type="linenumber">97</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-VS-Code" datatype="html">
         <source>VS Code icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">91</context>
+          <context context-type="linenumber">103</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-git" datatype="html">
         <source>Git icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">97</context>
+          <context context-type="linenumber">109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="icon-powershell" datatype="html">
         <source>PowerShell icon</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/tech-icon/tech-icon.component.ts</context>
-          <context context-type="linenumber">103</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="description_salesforce-data-copy" datatype="html">
+        <source>Desktop app that clones Salesforce data from one sandbox environment to another by crawling a data graph.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/projectData.ts</context>
+          <context context-type="linenumber">14</context>
         </context-group>
       </trans-unit>
       <trans-unit id="description_meta-movie" datatype="html">
         <source>A browser plugin for Chrome that gives you facts on the form of text bubbles in Netflix videos</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">14</context>
+          <context context-type="linenumber">21</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title_freezer-practice" datatype="html">
         <source>Freezer practice app</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">20</context>
+          <context context-type="linenumber">27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="description_freezer-practice" datatype="html">
         <source>A website for mobile that displays freezer and aliments</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">21</context>
+          <context context-type="linenumber">28</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title_personal-site" datatype="html">
         <source>This personal site</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">27</context>
+          <context context-type="linenumber">34</context>
         </context-group>
       </trans-unit>
       <trans-unit id="description_personal-site" datatype="html">
         <source>A responsive site that showcases various hobby projects</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">28</context>
+          <context context-type="linenumber">35</context>
         </context-group>
       </trans-unit>
       <trans-unit id="title_workspace-preference" datatype="html">
         <source>WorkSpace preferences</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">34</context>
+          <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
       <trans-unit id="description_workspace-preference" datatype="html">
         <source>Scripts, tools and configurations to set-up my developer environment quickly</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/projectData.ts</context>
-          <context context-type="linenumber">35</context>
+          <context context-type="linenumber">42</context>
         </context-group>
       </trans-unit>
     </body>

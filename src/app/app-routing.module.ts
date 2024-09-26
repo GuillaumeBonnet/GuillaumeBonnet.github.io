@@ -9,12 +9,14 @@ import { FreezerPracticeComponent } from './github/freezer-practice/freezer-prac
 import { PersonalSiteComponent } from './github/personal-site/personal-site.component';
 import { WorkspacePreferenceComponent } from './github/workspace-preference/workspace-preference.component';
 import { ArticlesComponent } from './articles/articles.component';
+import { SalesforceDataCopyComponent } from './github/salesforce-data-copy/salesforce-data-copy.component';
 
 const routes: Routes = [
   {
     path: 'github',
     component: GithubProjectComponent,
     children: [
+      { path: 'salesforce-data-copy', component: SalesforceDataCopyComponent },
       { path: 'meta-movie', component: MetaMovieComponent },
       { path: 'freezer-practice', component: FreezerPracticeComponent },
       { path: 'personal-site', component: PersonalSiteComponent },

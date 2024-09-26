@@ -14,6 +14,18 @@ const iconMap = {
     title: 'vuejs',
     url: 'https://vuejs.org/',
   },
+  electron: {
+    longPath: '/src/assets/electron.icon.svg',
+    alt: $localize`:@@icon-electron:electron icon`,
+    title: 'electron',
+    url: 'https://www.electronjs.org/',
+  },
+  quasar: {
+    longPath: '/src/assets/quasar.icon.png',
+    alt: $localize`:@@icon-quasar:quasar icon`,
+    title: 'quasar',
+    url: 'https://quasar.dev/',
+  },
   angular: {
     longPath: '/src/assets/angular.icon.svg',
     alt: $localize`:@@icon-angular:angular icon`,

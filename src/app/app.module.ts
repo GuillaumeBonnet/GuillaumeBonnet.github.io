@@ -65,6 +65,7 @@ import { LanguagePickerComponent } from './language-picker/language-picker.compo
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { ArticlesComponent } from './articles/articles.component';
 import { CodeSnippetComponent } from './articles/code-snippet/code-snippet.component';
+import { SalesforceDataCopyComponent } from './github/salesforce-data-copy/salesforce-data-copy.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -73,6 +74,7 @@ import { CodeSnippetComponent } from './articles/code-snippet/code-snippet.compo
     LinkedInComponent,
     TechIconComponent,
     MetaMovieComponent,
+    SalesforceDataCopyComponent,
     FreezerPracticeComponent,
     GithubProjectComponent,
     GithubProjectLinkComponent,
