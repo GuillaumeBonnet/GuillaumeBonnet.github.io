@@ -10,7 +10,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="about:content" datatype="html">
-        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/>I am a developer based in Lyon(France).<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/> I&apos;ve been working for the past 5 years as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;"/>full stack developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
+        <source><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/>I am a developer based in Lyon(France).<x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/><x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;&gt;"/><x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;&gt;"/> I&apos;ve been working for the past 6 years as a <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;&gt;"/>full stack developer<x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
       &gt;"/> on many projects with the <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
         href=&quot;https://www.salesforce.com/fr/products/what-is-salesforce/&quot;
         class=&quot;link&quot;

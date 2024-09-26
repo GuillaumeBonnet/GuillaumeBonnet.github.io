@@ -19,7 +19,7 @@
           <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
           <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
-          I've been working for the past 5 years as a
+          I've been working for the past 6 years as a
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           full stack developer
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
@@ -88,7 +88,7 @@
           <x id="START_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;mat-divider inset class=&quot;w-2/3 mx-auto mb-6 mt-4&quot;>" />
           <x id="CLOSE_TAG_MAT_DIVIDER" ctype="x-mat_divider" equiv-text="&lt;/mat-divider>" />
           <x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p class=&quot;&quot;>" />
-          Je travaille depuis 5 ans en tant que
+          Je travaille depuis 6 ans en tant que
           <x id="START_TAG_STRONG" ctype="x-strong" equiv-text="&lt;strong class=&quot;font-extrabold&quot;>" />
           développeur full stack
           <x id="CLOSE_TAG_STRONG" ctype="x-strong" equiv-text="&lt;/strong
